@@ -1,0 +1,286 @@
+[
+  {
+      "id": "imovel_001",
+      "titulo": "Apartamento Luxuoso com Vista para o Mar",
+      "tipo": "Apartamento",
+      "descricao": "Lindo apartamento com acabamento de alto padrão, vista panorâmica para o mar e total infraestrutura.",
+      "caracteristicas": {
+          "area": 120,
+          "quartos": 3,
+          "suites": 1,
+          "vagas": 2,
+          "banheiros": 2
+      },
+      "localizacao": {
+          "bairro": "Boa Viagem",
+          "cidade": "Recife",
+          "estado": "PE"
+      },
+      "valores": {
+          "preco": 850000,
+          "condominio": 1200,
+          "iptu": 3600
+      },
+      "amenidades": [
+          "Piscina",
+          "Academia",
+          "Salão de Festas",
+          "Playground",
+          "Segurança 24h"
+      ]
+  },
+  {
+      "id": "imovel_002",
+      "titulo": "Cobertura Duplex na Vila Mariana",
+      "tipo": "Cobertura",
+      "descricao": "Espetacular cobertura duplex com terraço gourmet e vista panorâmica da cidade.",
+      "caracteristicas": {
+          "area": 280,
+          "quartos": 4,
+          "suites": 2,
+          "vagas": 3,
+          "banheiros": 4
+      },
+      "localizacao": {
+          "bairro": "Vila Mariana",
+          "cidade": "São Paulo",
+          "estado": "SP"
+      },
+      "valores": {
+          "preco": 2500000,
+          "condominio": 2000,
+          "iptu": 8000
+      },
+      "amenidades": [
+          "Terraço Gourmet",
+          "Piscina Privativa",
+          "Churrasqueira",
+          "Sauna"
+      ]
+  },
+  {
+      "id": "imovel_003",
+      "titulo": "Apartamento Garden no Moinhos de Vento",
+      "tipo": "Garden",
+      "descricao": "Exclusivo garden com amplo jardim privativo em localização privilegiada.",
+      "caracteristicas": {
+          "area": 150,
+          "quartos": 3,
+          "suites": 1,
+          "vagas": 2,
+          "banheiros": 3
+      },
+      "localizacao": {
+          "bairro": "Moinhos de Vento",
+          "cidade": "Porto Alegre",
+          "estado": "RS"
+      },
+      "valores": {
+          "preco": 1800000,
+          "condominio": 1500,
+          "iptu": 5000
+      },
+      "amenidades": [
+          "Jardim Privativo",
+          "Área Gourmet",
+          "Segurança 24h"
+      ]
+  },
+  {
+      "id": "imovel_004",
+      "titulo": "Studio Moderno em Pinheiros",
+      "tipo": "Studio",
+      "descricao": "Studio contemporâneo próximo ao metrô, ideal para jovens profissionais.",
+      "caracteristicas": {
+          "area": 35,
+          "quartos": 1,
+          "suites": 0,
+          "vagas": 1,
+          "banheiros": 1
+      },
+      "localizacao": {
+          "bairro": "Pinheiros",
+          "cidade": "São Paulo",
+          "estado": "SP"
+      },
+      "valores": {
+          "preco": 450000,
+          "condominio": 500,
+          "iptu": 1200
+      },
+      "amenidades": [
+          "Coworking",
+          "Lavanderia",
+          "Bicicletário"
+      ]
+  },
+  {
+      "id": "imovel_005",
+      "titulo": "Apartamento no Bela Vista",
+      "tipo": "Apartamento",
+      "descricao": "Apartamento reformado no coração de Porto Alegre, próximo a restaurantes e vida noturna.",
+      "caracteristicas": {
+          "area": 85,
+          "quartos": 2,
+          "suites": 1,
+          "vagas": 1,
+          "banheiros": 2
+      },
+      "localizacao": {
+          "bairro": "Bela Vista",
+          "cidade": "Porto Alegre",
+          "estado": "RS"
+      },
+      "valores": {
+          "preco": 650000,
+          "condominio": 800,
+          "iptu": 2400
+      },
+      "amenidades": [
+          "Academia",
+          "Salão de Festas",
+          "Portaria 24h"
+      ]
+  },
+  {
+      "id": "imovel_006",
+      "titulo": "Apartamento Alto Padrão Itaim Bibi",
+      "tipo": "Apartamento",
+      "descricao": "Apartamento sofisticado em prédio novo com lazer completo.",
+      "caracteristicas": {
+          "area": 180,
+          "quartos": 3,
+          "suites": 3,
+          "vagas": 3,
+          "banheiros": 4
+      },
+      "localizacao": {
+          "bairro": "Itaim Bibi",
+          "cidade": "São Paulo",
+          "estado": "SP"
+      },
+      "valores": {
+          "preco": 3200000,
+          "condominio": 2500,
+          "iptu": 9000
+      },
+      "amenidades": [
+          "Piscina Aquecida",
+          "Spa",
+          "Academia Premium",
+          "Wine Cellar"
+      ]
+  },
+  {
+      "id": "imovel_007",
+      "titulo": "Cobertura no Menino Deus",
+      "tipo": "Cobertura",
+      "descricao": "Cobertura com vista para o Guaíba e acabamento premium.",
+      "caracteristicas": {
+          "area": 220,
+          "quartos": 3,
+          "suites": 2,
+          "vagas": 3,
+          "banheiros": 4
+      },
+      "localizacao": {
+          "bairro": "Menino Deus",
+          "cidade": "Porto Alegre",
+          "estado": "RS"
+      },
+      "valores": {
+          "preco": 1950000,
+          "condominio": 1800,
+          "iptu": 6000
+      },
+      "amenidades": [
+          "Terraço Gourmet",
+          "Vista Panorâmica",
+          "Piscina Privativa"
+      ]
+  },
+  {
+      "id": "imovel_008",
+      "titulo": "Apartamento Jardins",
+      "tipo": "Apartamento",
+      "descricao": "Apartamento clássico em localização nobre dos Jardins.",
+      "caracteristicas": {
+          "area": 150,
+          "quartos": 3,
+          "suites": 1,
+          "vagas": 2,
+          "banheiros": 3
+      },
+      "localizacao": {
+          "bairro": "Jardins",
+          "cidade": "São Paulo",
+          "estado": "SP"
+      },
+      "valores": {
+          "preco": 2800000,
+          "condominio": 1800,
+          "iptu": 7500
+      },
+      "amenidades": [
+          "Área Verde",
+          "Segurança 24h",
+          "Salão de Festas"
+      ]
+  },
+  {
+      "id": "imovel_009",
+      "titulo": "Apartamento na Cidade Baixa",
+      "tipo": "Apartamento",
+      "descricao": "Apartamento charmoso em região boêmia e cultural.",
+      "caracteristicas": {
+          "area": 75,
+          "quartos": 2,
+          "suites": 0,
+          "vagas": 1,
+          "banheiros": 1
+      },
+      "localizacao": {
+          "bairro": "Cidade Baixa",
+          "cidade": "Porto Alegre",
+          "estado": "RS"
+      },
+      "valores": {
+          "preco": 420000,
+          "condominio": 450,
+          "iptu": 1800
+      },
+      "amenidades": [
+          "Portaria",
+          "Elevador",
+          "Bike Rack"
+      ]
+  },
+  {
+      "id": "imovel_010",
+      "titulo": "Loft na Vila Madalena",
+      "tipo": "Loft",
+      "descricao": "Loft descolado em região artística e cultural.",
+      "caracteristicas": {
+          "area": 65,
+          "quartos": 1,
+          "suites": 1,
+          "vagas": 1,
+          "banheiros": 1
+      },
+      "localizacao": {
+          "bairro": "Vila Madalena",
+          "cidade": "São Paulo",
+          "estado": "SP"
+      },
+      "valores": {
+          "preco": 750000,
+          "condominio": 600,
+          "iptu": 2000
+      },
+      "amenidades": [
+          "Rooftop",
+          "Coworking",
+          "Pet Place"
+      ]
+  }
+]

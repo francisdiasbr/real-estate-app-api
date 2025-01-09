@@ -5,7 +5,7 @@ def init_vector_search():
     """
     Inicializa o índice de busca vetorial no MongoDB Atlas
     """
-    collection = get_mongo_collection("imoveis")
+    collection = get_mongo_collection("properties")
     
     # Cria a coleção se ela não existir inserindo um documento dummy
     try:

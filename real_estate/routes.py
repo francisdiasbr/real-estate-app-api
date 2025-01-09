@@ -30,11 +30,12 @@ def search():
         return jsonify({'error': 'Query não fornecida'}), 400
 
     try:
-        # Gera embedding para a busca
         query_embedding = get_search_embedding(query)
         
-        # Busca os imóveis mais similares usando Atlas Search
-        collection = get_mongo_collection("imoveis")
+        collection = get_mongo_collection("properties")
+        # print(f"Buscando por: {query}")
+        # print(f"Total de documentos na coleção: {collection.count_documents({})}")
+        
         pipeline = [
             {
                 "$vectorSearch": {
@@ -49,22 +50,20 @@ def search():
                 "$project": {
                     "_id": 1,
                     "score": {"$meta": "vectorSearchScore"},
-                    "dados": 1
+                    "dados": 1,
+                    "anuncio": 1
                 }
             }
         ]
 
         results = list(collection.aggregate(pipeline))
+        # print(f"Resultados encontrados: {len(results)}")
         
-        # Formata os resultados
         formatted_results = [{
             'id': r['_id'],
             'score': r['score'],
-            'titulo': r['dados']['titulo'],
-            'tipo': r['dados']['tipo'],
-            'preco': r['dados']['valores']['preco'],
-            'bairro': r['dados']['localizacao']['bairro'],
-            'cidade': r['dados']['localizacao']['cidade']
+            'dados': r['dados'],
+            'anuncio': r['anuncio']
         } for r in results]
 
         return jsonify({

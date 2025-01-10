@@ -8,8 +8,10 @@ Este projeto tem como objetivo criar uma API para busca de imóveis com base em 
 
 Os imóveis são armazenados em um banco de dados MongoDB Atlas e os embeddings são gerados usando o modelo `text-embedding-3-small` da OpenAI.
 
+<br/>
 
-## Instalação
+<details>
+<summary><h2 style="display: inline">Instalação</h2></summary>
 
 ### Criar ambiente virtual
 ```bash 
@@ -25,11 +27,13 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
+</details>
+<br/>
 
-## Execução
+<details>
+<summary><h2 style="display: inline">Preparar o ambiente (inicializar o índice de busca vetorial, gerar embeddings e anúncios) e executar a API</h2></summary>
 
 ### Inicializar o índice de busca vetorial
-
 ```bash
 python3 init_db.py
 ```
@@ -39,6 +43,7 @@ python3 init_db.py
 ```bash
 python3 generate_listings_and_embeddings.py
 ```
+
 
 ## Executar a API
 
@@ -56,8 +61,11 @@ curl --location 'http://localhost:5000/api/search' \
     "limit": 1
 }'
 ```
+</details>
+<br/>
 
-## Response
+<details>
+<summary><h2 style="display: inline">Response</h2></summary>
 
 ```json
 {
@@ -100,6 +108,9 @@ curl --location 'http://localhost:5000/api/search' \
 }
 ```
 
+</details>
+<br/>
+
 ## Arquivos
 
 - `mock_data.json`: Arquivo com dados mock para teste.
@@ -109,9 +120,10 @@ curl --location 'http://localhost:5000/api/search' \
 - `app.py`: API para busca de imóveis.
 
 
-# Teoria
+## Teoria
 
-## Índice de busca vetorial - Vector Search Index (Atlas Vector Search Index)
+<details>
+<summary><h3 style="display: inline">Índice de busca vetorial - Vector Search Index (Atlas Vector Search Index)</h3></summary>
 
 O índice de busca vetorial (Atlas Vector Search Index) é um tipo especial de índice disponível apenas no MongoDB Atlas e que permite realizar buscas por similaridade em vetores (embeddings).
 
@@ -162,9 +174,10 @@ Quando um usuário busca "apartamento com vista para o mar em Recife":
 1. A busca é convertida em um vetor usando o mesmo modelo
 2. O índice encontra rapidamente os vetores mais próximos
 3. Retorna os imóveis ordenados por similaridade
+</details>
 
-
-## Geração de Embeddings
+<details>
+<summary><h3 style="display: inline">Geração de Embeddings</h3></summary>
 
 ### O que são embeddings?
 Embeddings são representações vetoriais de textos, onde palavras ou frases com significados semelhantes ficam próximas no espaço vetorial.
@@ -188,6 +201,8 @@ Embeddings são representações vetoriais de textos, onde palavras ou frases co
    - O embedding da busca é gerado no momento da busca
    - O embedding da busca é comparado com os embeddings dos imóveis usando a distância euclidiana
    - Os imóveis mais próximos são retornados como resultado
+
+</details>
 
 
 ### Requisitos

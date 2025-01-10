@@ -9,4 +9,4 @@ CORS(app)
 app.register_blueprint(real_estate, url_prefix='/api')
 
 if __name__ == '__main__':
-    app.run(debug=True) 
+    app.run(debug=True)

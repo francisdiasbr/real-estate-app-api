@@ -1,0 +1,300 @@
+[
+  {
+      "id": "property_001",
+      "title": "Apartamento Luxuoso com Vista para o Mar",
+      "type": "Apartment",
+      "business_type": "sale_rent",
+      "description": "Lindo apartamento com acabamento de alto padrão, vista panorâmica para o mar e total infraestrutura.",
+      "features": {
+          "area": 120,
+          "bedrooms": 3,
+          "suites": 1,
+          "parking_spots": 2,
+          "bathrooms": 2
+      },
+      "location": {
+          "neighborhood": "Boa Viagem",
+          "city": "Recife",
+          "state": "PE"
+      },
+      "prices": {
+          "sale_price": 850000,
+          "rent_price": 4500,
+          "condo_fee": 1200,
+          "property_tax": 3600
+      },
+      "amenities": [
+          "Piscina",
+          "Academia",
+          "Salão de Festas",
+          "Playground",
+          "Segurança 24h"
+      ]
+  },
+  {
+      "id": "property_002",
+      "title": "Cobertura Duplex na Vila Mariana",
+      "type": "Penthouse",
+      "business_type": "sale",
+      "description": "Espetacular cobertura duplex com terraço gourmet e vista panorâmica da cidade.",
+      "features": {
+          "area": 280,
+          "bedrooms": 4,
+          "suites": 2,
+          "parking_spots": 3,
+          "bathrooms": 4
+      },
+      "location": {
+          "neighborhood": "Vila Mariana",
+          "city": "São Paulo",
+          "state": "SP"
+      },
+      "prices": {
+          "sale_price": 2500000,
+          "condo_fee": 2000,
+          "property_tax": 8000
+      },
+      "amenities": [
+          "Terraço Gourmet",
+          "Piscina Privativa",
+          "Churrasqueira",
+          "Sauna"
+      ]
+  },
+  {
+      "id": "property_003",
+      "title": "Apartamento Garden no Moinhos de Vento",
+      "type": "Garden",
+      "business_type": "sale_rent",
+      "description": "Exclusivo garden com amplo jardim privativo em localização privilegiada.",
+      "features": {
+          "area": 150,
+          "bedrooms": 3,
+          "suites": 1,
+          "parking_spots": 2,
+          "bathrooms": 3
+      },
+      "location": {
+          "neighborhood": "Moinhos de Vento",
+          "city": "Porto Alegre",
+          "state": "RS"
+      },
+      "prices": {
+          "sale_price": 1800000,
+          "rent_price": 8500,
+          "condo_fee": 1500,
+          "property_tax": 5000
+      },
+      "amenities": [
+          "Jardim Privativo",
+          "Área Gourmet",
+          "Segurança 24h"
+      ]
+  },
+  {
+      "id": "property_004",
+      "title": "Studio Moderno em Pinheiros",
+      "type": "Studio",
+      "business_type": "rent",
+      "description": "Studio contemporâneo próximo ao metrô, ideal para jovens profissionais.",
+      "features": {
+          "area": 35,
+          "bedrooms": 1,
+          "suites": 0,
+          "parking_spots": 1,
+          "bathrooms": 1
+      },
+      "location": {
+          "neighborhood": "Pinheiros",
+          "city": "São Paulo",
+          "state": "SP"
+      },
+      "prices": {
+          "rent_price": 2800,
+          "condo_fee": 500,
+          "property_tax": 1200
+      },
+      "amenities": [
+          "Coworking",
+          "Lavanderia",
+          "Bicicletário"
+      ]
+  },
+  {
+      "id": "property_005",
+      "title": "Apartamento no Bela Vista",
+      "type": "Apartment",
+      "business_type": "sale_rent",
+      "description": "Apartamento reformado no coração de Porto Alegre, próximo a restaurantes e vida noturna.",
+      "features": {
+          "area": 85,
+          "bedrooms": 2,
+          "suites": 1,
+          "parking_spots": 1,
+          "bathrooms": 2
+      },
+      "location": {
+          "neighborhood": "Bela Vista",
+          "city": "Porto Alegre",
+          "state": "RS"
+      },
+      "prices": {
+          "sale_price": 650000,
+          "rent_price": 3500,
+          "condo_fee": 800,
+          "property_tax": 2400
+      },
+      "amenities": [
+          "Academia",
+          "Salão de Festas",
+          "Portaria 24h"
+      ]
+  },
+  {
+      "id": "property_006",
+      "title": "Apartamento Alto Padrão Itaim Bibi",
+      "type": "Apartment",
+      "business_type": "sale",
+      "description": "Apartamento sofisticado em prédio novo com lazer completo.",
+      "features": {
+          "area": 180,
+          "bedrooms": 3,
+          "suites": 3,
+          "parking_spots": 3,
+          "bathrooms": 4
+      },
+      "location": {
+          "neighborhood": "Itaim Bibi",
+          "city": "São Paulo",
+          "state": "SP"
+      },
+      "prices": {
+          "sale_price": 3200000,
+          "condo_fee": 2500,
+          "property_tax": 9000
+      },
+      "amenities": [
+          "Piscina Aquecida",
+          "Spa",
+          "Academia Premium",
+          "Wine Cellar"
+      ]
+  },
+  {
+      "id": "property_007",
+      "title": "Cobertura no Menino Deus",
+      "type": "Penthouse",
+      "business_type": "rent",
+      "description": "Cobertura com vista para o Guaíba e acabamento premium.",
+      "features": {
+          "area": 220,
+          "bedrooms": 3,
+          "suites": 2,
+          "parking_spots": 3,
+          "bathrooms": 4
+      },
+      "location": {
+          "neighborhood": "Menino Deus",
+          "city": "Porto Alegre",
+          "state": "RS"
+      },
+      "prices": {
+          "rent_price": 9500,
+          "condo_fee": 1800,
+          "property_tax": 6000
+      },
+      "amenities": [
+          "Terraço Gourmet",
+          "Vista Panorâmica",
+          "Piscina Privativa"
+      ]
+  },
+  {
+      "id": "property_008",
+      "title": "Apartamento Jardins",
+      "type": "Apartment",
+      "business_type": "sale",
+      "description": "Apartamento clássico em localização nobre dos Jardins.",
+      "features": {
+          "area": 150,
+          "bedrooms": 3,
+          "suites": 1,
+          "parking_spots": 2,
+          "bathrooms": 3
+      },
+      "location": {
+          "neighborhood": "Jardins",
+          "city": "São Paulo",
+          "state": "SP"
+      },
+      "prices": {
+          "sale_price": 2800000,
+          "condo_fee": 1800,
+          "property_tax": 7500
+      },
+      "amenities": [
+          "Área Verde",
+          "Segurança 24h",
+          "Salão de Festas"
+      ]
+  },
+  {
+      "id": "property_009",
+      "title": "Apartamento na Cidade Baixa",
+      "type": "Apartment",
+      "business_type": "rent",
+      "description": "Apartamento charmoso em região boêmia e cultural.",
+      "features": {
+          "area": 75,
+          "bedrooms": 2,
+          "suites": 0,
+          "parking_spots": 1,
+          "bathrooms": 1
+      },
+      "location": {
+          "neighborhood": "Cidade Baixa",
+          "city": "Porto Alegre",
+          "state": "RS"
+      },
+      "prices": {
+          "rent_price": 2200,
+          "condo_fee": 450,
+          "property_tax": 1800
+      },
+      "amenities": [
+          "Portaria",
+          "Elevador",
+          "Bike Rack"
+      ]
+  },
+  {
+      "id": "property_010",
+      "title": "Loft na Vila Madalena",
+      "type": "Loft",
+      "business_type": "sale_rent",
+      "description": "Loft descolado em região artística e cultural.",
+      "features": {
+          "area": 65,
+          "bedrooms": 1,
+          "suites": 1,
+          "parking_spots": 1,
+          "bathrooms": 1
+      },
+      "location": {
+          "neighborhood": "Vila Madalena",
+          "city": "São Paulo",
+          "state": "SP"
+      },
+      "prices": {
+          "sale_price": 750000,
+          "rent_price": 4000,
+          "condo_fee": 600,
+          "property_tax": 2000
+      },
+      "amenities": [
+          "Rooftop",
+          "Coworking",
+          "Pet Place"
+      ]
+  }
+]

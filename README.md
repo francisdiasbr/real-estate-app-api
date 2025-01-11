@@ -33,7 +33,7 @@ pip install -r requirements.txt
 <details>
 <summary><h2 style="display: inline">Preparar o ambiente (inicializar o índice de busca vetorial, gerar embeddings e anúncios) e executar a API</h2></summary>
 
-### Inicializar o índice de busca vetorial
+### Inicializar o índice de busca vetorial e popular o banco de dados (mock_data.json)
 ```bash
 python3 init_db.py
 ```

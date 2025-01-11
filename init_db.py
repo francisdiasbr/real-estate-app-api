@@ -1,20 +1,22 @@
 from pymongo.operations import SearchIndexModel
 from config import get_mongo_collection
+from generate_listings_and_embeddings import generate_mock_properties, generate_embeddings
+import json
 
 def init_vector_search():
     """
-    Inicializa o índice de busca vetorial no MongoDB Atlas
+    Initializes vector search index in MongoDB Atlas
     """
     collection = get_mongo_collection("properties")
     
-    # Cria a coleção se ela não existir inserindo um documento dummy
+    # Creates collection if it doesn't exist by inserting a dummy document
     try:
         collection.insert_one({"_id": "dummy"})
         collection.delete_one({"_id": "dummy"})
     except Exception as e:
-        print(f"Aviso ao criar coleção: {e}")
+        print(f"Warning when creating collection: {e}")
     
-    # Define o modelo do índice vetorial
+    # Defines vector index model
     search_index_model = SearchIndexModel(
         definition = {
             "fields": [
@@ -32,9 +34,29 @@ def init_vector_search():
     
     try:
         collection.create_search_index(model = search_index_model)
-        print("Índice de busca criado com sucesso!")
+        print("Search index created successfully!")
     except Exception as e:
-        print(f"Erro ao criar índice de busca: {e}")
+        print(f"Error creating search index: {e}")
+
+def init_database():
+    """
+    Initializes database with mock data and vector search index
+    """
+    # Generate mock properties
+    mock_data = generate_mock_properties(100)
+    
+    # Save mock data to file
+    with open('mock_data.json', 'w', encoding='utf-8') as f:
+        json.dump(mock_data, f, ensure_ascii=False, indent=2)
+    print("Mock data generated and saved to mock_data.json")
+    
+    # Initialize vector search index
+    init_vector_search()
+    print("Vector search index initialized")
+    
+    # Generate embeddings and save to MongoDB
+    generate_embeddings(mock_data)
+    print("Embeddings generated and saved to MongoDB")
 
 if __name__ == "__main__":
-    init_vector_search() 
+    init_database() 

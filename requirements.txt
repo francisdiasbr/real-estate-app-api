@@ -4,3 +4,6 @@ numpy
 openai
 python-dotenv
 pymongo
+Flask
+flask-cors
+gunicorn

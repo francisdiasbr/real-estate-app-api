@@ -26,16 +26,18 @@ def generate_summary(results: List[Dict], query: str) -> str:
         f"Você é um agente de imóveis que apresenta os imóveis de forma concisa e atraente. "
         f"Foque na principal característica desejada pelo usuário, conforme a consulta: '{query}'. "
         f"Baseie-se nos imóveis apresentados para responder à pergunta do usuário, destacando as características que correspondem à consulta. "
+        f"Importante: Não use markdown ou formatação especial na resposta, apenas texto puro. "
         f"{', '.join(descriptions)}"
     )
     
     response = client.chat.completions.create(
         model="gpt-4o-mini",
         messages=[
+            {"role": "system", "content": "Você é um agente de imóveis. Responda apenas com texto puro, sem markdown ou formatação especial."},
             {"role": "user", "content": prompt}
         ],
-        max_tokens=500,
-        temperature=0.4
+        max_tokens=300,
+        temperature=0.8
     )
     
     return response.choices[0].message.content.strip()
@@ -79,12 +81,16 @@ def search():
 
         results = list(collection.aggregate(pipeline))
         
+        # Define um limiar de pontuação para considerar um resultado satisfatório
+        score_threshold = 0.6
+        satisfactory_results = [r for r in results if r['score'] >= score_threshold]
+        
         formatted_results = [{
             'id': r['_id'],
             'score': r['score'],
             'dados': r['dados'],
             'anuncio': r['anuncio']
-        } for r in results]
+        } for r in satisfactory_results]
 
         summary = generate_summary(formatted_results, query)
 
@@ -111,6 +117,7 @@ def get_property(property_id: str):
             
         formatted_property = {
             'id': property['_id'],
+            'score': property.get('score', 0),
             'dados': property['dados'],
             'anuncio': property['anuncio']
         }

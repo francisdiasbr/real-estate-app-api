@@ -1,300 +1,3363 @@
 [
   {
-      "id": "property_001",
-      "title": "Apartamento Luxuoso com Vista para o Mar",
-      "type": "Apartment",
-      "business_type": "sale_rent",
-      "description": "Lindo apartamento com acabamento de alto padrão, vista panorâmica para o mar e total infraestrutura.",
-      "features": {
-          "area": 120,
-          "bedrooms": 3,
-          "suites": 1,
-          "parking_spots": 2,
-          "bathrooms": 2
-      },
-      "location": {
-          "neighborhood": "Boa Viagem",
-          "city": "Recife",
-          "state": "PE"
-      },
-      "prices": {
-          "sale_price": 850000,
-          "rent_price": 4500,
-          "condo_fee": 1200,
-          "property_tax": 3600
-      },
-      "amenities": [
-          "Piscina",
-          "Academia",
-          "Salão de Festas",
-          "Playground",
-          "Segurança 24h"
-      ]
+    "id": "property_001",
+    "title": "Kitnet em Petrópolis",
+    "type": "Kitnet",
+    "business_type": "venda",
+    "description": "Excelente kitnet para moradia ou investimento em localização estratégica",
+    "features": {
+      "area": 71,
+      "bedrooms": 2,
+      "suites": 1,
+      "parking_spots": 2,
+      "bathrooms": 2
+    },
+    "location": {
+      "neighborhood": "Auxiliadora",
+      "city": "Porto Alegre",
+      "state": "POA"
+    },
+    "prices": {
+      "condo_fee": 1534,
+      "property_tax": 14405,
+      "sale_price": 720295
+    },
+    "amenities": [
+      "Quadra de Squash",
+      "Área de Piquenique",
+      "Horta Comunitária",
+      "Playground",
+      "Academia",
+      "Terraço Gourmet",
+      "Quadra de Tênis",
+      "Depósito Privativo",
+      "Segurança 24h",
+      "Gerador"
+    ]
   },
   {
-      "id": "property_002",
-      "title": "Cobertura Duplex na Vila Mariana",
-      "type": "Penthouse",
-      "business_type": "sale",
-      "description": "Espetacular cobertura duplex com terraço gourmet e vista panorâmica da cidade.",
-      "features": {
-          "area": 280,
-          "bedrooms": 4,
-          "suites": 2,
-          "parking_spots": 3,
-          "bathrooms": 4
-      },
-      "location": {
-          "neighborhood": "Vila Mariana",
-          "city": "São Paulo",
-          "state": "SP"
-      },
-      "prices": {
-          "sale_price": 2500000,
-          "condo_fee": 2000,
-          "property_tax": 8000
-      },
-      "amenities": [
-          "Terraço Gourmet",
-          "Piscina Privativa",
-          "Churrasqueira",
-          "Sauna"
-      ]
+    "id": "property_002",
+    "title": "Condomínio em Morumbi",
+    "type": "Condomínio",
+    "business_type": "aluguel",
+    "description": "Ótima oportunidade: condomínio com 1 dormitórios em localização nobre",
+    "features": {
+      "area": 495,
+      "bedrooms": 1,
+      "suites": 0,
+      "parking_spots": 2,
+      "bathrooms": 2
+    },
+    "location": {
+      "neighborhood": "Brooklin",
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "prices": {
+      "condo_fee": 559,
+      "property_tax": 115731,
+      "rent_price": 23146
+    },
+    "amenities": [
+      "Sauna Úmida",
+      "Berçário",
+      "Sala de Massagem",
+      "Biblioteca",
+      "Sauna Seca"
+    ]
   },
   {
-      "id": "property_003",
-      "title": "Apartamento Garden no Moinhos de Vento",
-      "type": "Garden",
-      "business_type": "sale_rent",
-      "description": "Exclusivo garden com amplo jardim privativo em localização privilegiada.",
-      "features": {
-          "area": 150,
-          "bedrooms": 3,
-          "suites": 1,
-          "parking_spots": 2,
-          "bathrooms": 3
-      },
-      "location": {
-          "neighborhood": "Moinhos de Vento",
-          "city": "Porto Alegre",
-          "state": "RS"
-      },
-      "prices": {
-          "sale_price": 1800000,
-          "rent_price": 8500,
-          "condo_fee": 1500,
-          "property_tax": 5000
-      },
-      "amenities": [
-          "Jardim Privativo",
-          "Área Gourmet",
-          "Segurança 24h"
-      ]
+    "id": "property_003",
+    "title": "Cobertura em Grajaú",
+    "type": "Cobertura",
+    "business_type": "aluguel",
+    "description": "Magnífico cobertura com projeto arquitetônico diferenciado e 264m² de puro conforto",
+    "features": {
+      "area": 264,
+      "bedrooms": 2,
+      "suites": 0,
+      "parking_spots": 3,
+      "bathrooms": 2
+    },
+    "location": {
+      "neighborhood": "Copacabana",
+      "city": "Rio de Janeiro",
+      "state": "RJ"
+    },
+    "prices": {
+      "condo_fee": 980,
+      "property_tax": 56274,
+      "rent_price": 11254
+    },
+    "amenities": [
+      "Sala de Estudos",
+      "Bar Esportivo",
+      "Playground",
+      "Espaço Zen",
+      "Oficina de Bicicletas",
+      "Coleta Seletiva"
+    ]
   },
   {
-      "id": "property_004",
-      "title": "Studio Moderno em Pinheiros",
-      "type": "Studio",
-      "business_type": "rent",
-      "description": "Studio contemporâneo próximo ao metrô, ideal para jovens profissionais.",
-      "features": {
-          "area": 35,
-          "bedrooms": 1,
-          "suites": 0,
-          "parking_spots": 1,
-          "bathrooms": 1
-      },
-      "location": {
-          "neighborhood": "Pinheiros",
-          "city": "São Paulo",
-          "state": "SP"
-      },
-      "prices": {
-          "rent_price": 2800,
-          "condo_fee": 500,
-          "property_tax": 1200
-      },
-      "amenities": [
-          "Coworking",
-          "Lavanderia",
-          "Bicicletário"
-      ]
+    "id": "property_004",
+    "title": "Garden em Freguesia",
+    "type": "Garden",
+    "business_type": "venda",
+    "description": "garden bem localizado, 5 dormitórios e infraestrutura completa",
+    "features": {
+      "area": 191,
+      "bedrooms": 5,
+      "suites": 5,
+      "parking_spots": 3,
+      "bathrooms": 5
+    },
+    "location": {
+      "neighborhood": "Humaitá",
+      "city": "Rio de Janeiro",
+      "state": "RJ"
+    },
+    "prices": {
+      "condo_fee": 2048,
+      "property_tax": 43444,
+      "sale_price": 2172243
+    },
+    "amenities": [
+      "Coleta Seletiva",
+      "Espaço Kids",
+      "Sala de Estudos",
+      "Bar Esportivo"
+    ]
   },
   {
-      "id": "property_005",
-      "title": "Apartamento no Bela Vista",
-      "type": "Apartment",
-      "business_type": "sale_rent",
-      "description": "Apartamento reformado no coração de Porto Alegre, próximo a restaurantes e vida noturna.",
-      "features": {
-          "area": 85,
-          "bedrooms": 2,
-          "suites": 1,
-          "parking_spots": 1,
-          "bathrooms": 2
-      },
-      "location": {
-          "neighborhood": "Bela Vista",
-          "city": "Porto Alegre",
-          "state": "RS"
-      },
-      "prices": {
-          "sale_price": 650000,
-          "rent_price": 3500,
-          "condo_fee": 800,
-          "property_tax": 2400
-      },
-      "amenities": [
-          "Academia",
-          "Salão de Festas",
-          "Portaria 24h"
-      ]
+    "id": "property_005",
+    "title": "Apartamento em Joá",
+    "type": "Apartamento",
+    "business_type": "venda",
+    "description": "Amplo apartamento com 91m² em região bem servida de comércio e serviços",
+    "features": {
+      "area": 91,
+      "bedrooms": 1,
+      "suites": 1,
+      "parking_spots": 2,
+      "bathrooms": 2
+    },
+    "location": {
+      "neighborhood": "Gávea",
+      "city": "Rio de Janeiro",
+      "state": "RJ"
+    },
+    "prices": {
+      "condo_fee": 684,
+      "property_tax": 17426,
+      "sale_price": 871325
+    },
+    "amenities": [
+      "Espaço Kids",
+      "Bar Esportivo",
+      "Sala de Massagem",
+      "Espaço Musical",
+      "Sala de Meditação",
+      "Sala de Estudos",
+      "Biblioteca",
+      "Espaço Coworking"
+    ]
   },
   {
-      "id": "property_006",
-      "title": "Apartamento Alto Padrão Itaim Bibi",
-      "type": "Apartment",
-      "business_type": "sale",
-      "description": "Apartamento sofisticado em prédio novo com lazer completo.",
-      "features": {
-          "area": 180,
-          "bedrooms": 3,
-          "suites": 3,
-          "parking_spots": 3,
-          "bathrooms": 4
-      },
-      "location": {
-          "neighborhood": "Itaim Bibi",
-          "city": "São Paulo",
-          "state": "SP"
-      },
-      "prices": {
-          "sale_price": 3200000,
-          "condo_fee": 2500,
-          "property_tax": 9000
-      },
-      "amenities": [
-          "Piscina Aquecida",
-          "Spa",
-          "Academia Premium",
-          "Wine Cellar"
-      ]
+    "id": "property_006",
+    "title": "Mansão em Mont'Serrat",
+    "type": "Mansão",
+    "business_type": "venda_aluguel",
+    "description": "Excelente mansão para moradia ou investimento em localização estratégica",
+    "features": {
+      "area": 442,
+      "bedrooms": 5,
+      "suites": 5,
+      "parking_spots": 2,
+      "bathrooms": 4
+    },
+    "location": {
+      "neighborhood": "Ipanema",
+      "city": "Porto Alegre",
+      "state": "POA"
+    },
+    "prices": {
+      "condo_fee": 2292,
+      "property_tax": 91874,
+      "sale_price": 4593706,
+      "rent_price": 18374
+    },
+    "amenities": [
+      "Academia 24h",
+      "Espaço Musical",
+      "Brinquedoteca",
+      "Centro Empresarial",
+      "Internet Fibra Ótica",
+      "Quadra de Squash",
+      "Academia",
+      "Estúdio de Yoga",
+      "Campo de Futebol",
+      "Spa"
+    ]
   },
   {
-      "id": "property_007",
-      "title": "Cobertura no Menino Deus",
-      "type": "Penthouse",
-      "business_type": "rent",
-      "description": "Cobertura com vista para o Guaíba e acabamento premium.",
-      "features": {
-          "area": 220,
-          "bedrooms": 3,
-          "suites": 2,
-          "parking_spots": 3,
-          "bathrooms": 4
-      },
-      "location": {
-          "neighborhood": "Menino Deus",
-          "city": "Porto Alegre",
-          "state": "RS"
-      },
-      "prices": {
-          "rent_price": 9500,
-          "condo_fee": 1800,
-          "property_tax": 6000
-      },
-      "amenities": [
-          "Terraço Gourmet",
-          "Vista Panorâmica",
-          "Piscina Privativa"
-      ]
+    "id": "property_007",
+    "title": "Flat em Juvevê",
+    "type": "Flat",
+    "business_type": "aluguel",
+    "description": "Sofisticado flat em prédio novo com lazer completo e acabamento premium",
+    "features": {
+      "area": 378,
+      "bedrooms": 4,
+      "suites": 0,
+      "parking_spots": 1,
+      "bathrooms": 5
+    },
+    "location": {
+      "neighborhood": "Centro",
+      "city": "Curitiba",
+      "state": "CWB"
+    },
+    "prices": {
+      "condo_fee": 1208,
+      "property_tax": 54280,
+      "rent_price": 10856
+    },
+    "amenities": [
+      "Pomar",
+      "Portaria Blindada",
+      "Forno de Pizza",
+      "Jardim de Cerveja",
+      "Gerador",
+      "Horta Comunitária",
+      "Academia",
+      "Oficina de Bicicletas",
+      "Pista de Corrida",
+      "Sala de Estudos"
+    ]
   },
   {
-      "id": "property_008",
-      "title": "Apartamento Jardins",
-      "type": "Apartment",
-      "business_type": "sale",
-      "description": "Apartamento clássico em localização nobre dos Jardins.",
-      "features": {
-          "area": 150,
-          "bedrooms": 3,
-          "suites": 1,
-          "parking_spots": 2,
-          "bathrooms": 3
-      },
-      "location": {
-          "neighborhood": "Jardins",
-          "city": "São Paulo",
-          "state": "SP"
-      },
-      "prices": {
-          "sale_price": 2800000,
-          "condo_fee": 1800,
-          "property_tax": 7500
-      },
-      "amenities": [
-          "Área Verde",
-          "Segurança 24h",
-          "Salão de Festas"
-      ]
+    "id": "property_008",
+    "title": "Apartamento em Ipanema",
+    "type": "Apartamento",
+    "business_type": "venda_aluguel",
+    "description": "apartamento bem localizado, 5 dormitórios e infraestrutura completa",
+    "features": {
+      "area": 84,
+      "bedrooms": 5,
+      "suites": 4,
+      "parking_spots": 2,
+      "bathrooms": 2
+    },
+    "location": {
+      "neighborhood": "Menino Deus",
+      "city": "Porto Alegre",
+      "state": "POA"
+    },
+    "prices": {
+      "condo_fee": 2303,
+      "property_tax": 16280,
+      "sale_price": 814044,
+      "rent_price": 3256
+    },
+    "amenities": [
+      "Salão de Festas",
+      "Academia",
+      "Spa",
+      "Jardim Zen",
+      "Internet Fibra Ótica",
+      "Sala de Videoconferência",
+      "Estúdio de Yoga",
+      "Sala de Estudos"
+    ]
   },
   {
-      "id": "property_009",
-      "title": "Apartamento na Cidade Baixa",
-      "type": "Apartment",
-      "business_type": "rent",
-      "description": "Apartamento charmoso em região boêmia e cultural.",
-      "features": {
-          "area": 75,
-          "bedrooms": 2,
-          "suites": 0,
-          "parking_spots": 1,
-          "bathrooms": 1
-      },
-      "location": {
-          "neighborhood": "Cidade Baixa",
-          "city": "Porto Alegre",
-          "state": "RS"
-      },
-      "prices": {
-          "rent_price": 2200,
-          "condo_fee": 450,
-          "property_tax": 1800
-      },
-      "amenities": [
-          "Portaria",
-          "Elevador",
-          "Bike Rack"
-      ]
+    "id": "property_009",
+    "title": "Studio em Leblon",
+    "type": "Studio",
+    "business_type": "aluguel",
+    "description": "studio em ótimo estado, com 3 quartos e área de lazer completa",
+    "features": {
+      "area": 312,
+      "bedrooms": 3,
+      "suites": 3,
+      "parking_spots": 3,
+      "bathrooms": 1
+    },
+    "location": {
+      "neighborhood": "Ipanema",
+      "city": "Rio de Janeiro",
+      "state": "RJ"
+    },
+    "prices": {
+      "condo_fee": 2300,
+      "property_tax": 83272,
+      "rent_price": 16654
+    },
+    "amenities": [
+      "Adega Climatizada",
+      "Sala de Reunião",
+      "Composteira",
+      "Brinquedoteca",
+      "Sala de Estudos",
+      "Espaço Musical",
+      "Carregador para Carro Elétrico",
+      "Lavanderia"
+    ]
   },
   {
-      "id": "property_010",
-      "title": "Loft na Vila Madalena",
-      "type": "Loft",
-      "business_type": "sale_rent",
-      "description": "Loft descolado em região artística e cultural.",
-      "features": {
-          "area": 65,
-          "bedrooms": 1,
-          "suites": 1,
-          "parking_spots": 1,
-          "bathrooms": 1
-      },
-      "location": {
-          "neighborhood": "Vila Madalena",
-          "city": "São Paulo",
-          "state": "SP"
-      },
-      "prices": {
-          "sale_price": 750000,
-          "rent_price": 4000,
-          "condo_fee": 600,
-          "property_tax": 2000
-      },
-      "amenities": [
-          "Rooftop",
-          "Coworking",
-          "Pet Place"
-      ]
+    "id": "property_010",
+    "title": "Vila em Mangabeiras",
+    "type": "Vila",
+    "business_type": "venda",
+    "description": "vila aconchegante em região tranquila, próximo a comércios e transporte",
+    "features": {
+      "area": 340,
+      "bedrooms": 2,
+      "suites": 0,
+      "parking_spots": 2,
+      "bathrooms": 1
+    },
+    "location": {
+      "neighborhood": "Cruzeiro",
+      "city": "Belo Horizonte",
+      "state": "BH"
+    },
+    "prices": {
+      "condo_fee": 2658,
+      "property_tax": 63478,
+      "sale_price": 3173900
+    },
+    "amenities": [
+      "Serviço de Manobrista",
+      "Segurança 24h",
+      "Sala de Meditação",
+      "Piscina Coberta",
+      "Sauna Úmida"
+    ]
+  },
+  {
+    "id": "property_011",
+    "title": "Garden em Santo Agostinho",
+    "type": "Garden",
+    "business_type": "venda_aluguel",
+    "description": "garden com boa distribuição dos ambientes e localização privilegiada",
+    "features": {
+      "area": 276,
+      "bedrooms": 2,
+      "suites": 1,
+      "parking_spots": 1,
+      "bathrooms": 4
+    },
+    "location": {
+      "neighborhood": "Luxemburgo",
+      "city": "Belo Horizonte",
+      "state": "BH"
+    },
+    "prices": {
+      "condo_fee": 1853,
+      "property_tax": 34842,
+      "sale_price": 1742112,
+      "rent_price": 6968
+    },
+    "amenities": [
+      "Internet Fibra Ótica",
+      "Quadra Poliesportiva",
+      "Pomar",
+      "Adega Climatizada"
+    ]
+  },
+  {
+    "id": "property_012",
+    "title": "Garden em Santana",
+    "type": "Garden",
+    "business_type": "venda",
+    "description": "garden bem localizado, 2 dormitórios e infraestrutura completa",
+    "features": {
+      "area": 146,
+      "bedrooms": 2,
+      "suites": 1,
+      "parking_spots": 3,
+      "bathrooms": 3
+    },
+    "location": {
+      "neighborhood": "Vila Leopoldina",
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "prices": {
+      "condo_fee": 1430,
+      "property_tax": 37641,
+      "sale_price": 1882086
+    },
+    "amenities": [
+      "Espaço Gourmet",
+      "Sala de Entregas",
+      "Depósito Privativo",
+      "Karaokê",
+      "Playground Coberto",
+      "Lounge",
+      "Sauna Úmida"
+    ]
+  },
+  {
+    "id": "property_013",
+    "title": "Vila em São Conrado",
+    "type": "Vila",
+    "business_type": "venda",
+    "description": "Lindo vila com acabamento de alto padrão e total infraestrutura",
+    "features": {
+      "area": 336,
+      "bedrooms": 2,
+      "suites": 1,
+      "parking_spots": 1,
+      "bathrooms": 3
+    },
+    "location": {
+      "neighborhood": "Flamengo",
+      "city": "Rio de Janeiro",
+      "state": "RJ"
+    },
+    "prices": {
+      "condo_fee": 2791,
+      "property_tax": 81049,
+      "sale_price": 4052496
+    },
+    "amenities": [
+      "Internet Fibra Ótica",
+      "Karaokê",
+      "Oficina de Bicicletas",
+      "Segurança 24h",
+      "Brinquedoteca",
+      "Terraço Gourmet"
+    ]
+  },
+  {
+    "id": "property_014",
+    "title": "Vila em Paraíso",
+    "type": "Vila",
+    "business_type": "venda",
+    "description": "vila em ótimo estado, com 4 quartos e área de lazer completa",
+    "features": {
+      "area": 87,
+      "bedrooms": 4,
+      "suites": 1,
+      "parking_spots": 1,
+      "bathrooms": 6
+    },
+    "location": {
+      "neighborhood": "Vila Mariana",
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "prices": {
+      "condo_fee": 1587,
+      "property_tax": 19844,
+      "sale_price": 992235
+    },
+    "amenities": [
+      "Biblioteca",
+      "Sala de Jogos",
+      "Brinquedoteca",
+      "Academia",
+      "Jardim de Cerveja",
+      "Internet Fibra Ótica"
+    ]
+  },
+  {
+    "id": "property_015",
+    "title": "Vila em Laranjeiras",
+    "type": "Vila",
+    "business_type": "aluguel",
+    "description": "Magnífico vila com projeto arquitetônico diferenciado e 494m² de puro conforto",
+    "features": {
+      "area": 494,
+      "bedrooms": 2,
+      "suites": 0,
+      "parking_spots": 4,
+      "bathrooms": 4
+    },
+    "location": {
+      "neighborhood": "Barra",
+      "city": "Rio de Janeiro",
+      "state": "RJ"
+    },
+    "prices": {
+      "condo_fee": 1035,
+      "property_tax": 96310,
+      "rent_price": 19262
+    },
+    "amenities": [
+      "Forno de Pizza",
+      "Espaço Zen",
+      "Sala de Jogos",
+      "Karaokê",
+      "Brinquedoteca",
+      "Cinema",
+      "Sala de Games",
+      "Sala de Meditação",
+      "Jardim Zen",
+      "Terraço Gourmet"
+    ]
+  },
+  {
+    "id": "property_016",
+    "title": "Chalé em Bela Vista",
+    "type": "Chalé",
+    "business_type": "aluguel",
+    "description": "Exclusivo chalé em localização premium com 180m² bem distribuídos",
+    "features": {
+      "area": 180,
+      "bedrooms": 4,
+      "suites": 1,
+      "parking_spots": 1,
+      "bathrooms": 3
+    },
+    "location": {
+      "neighborhood": "Chácara das Pedras",
+      "city": "Porto Alegre",
+      "state": "POA"
+    },
+    "prices": {
+      "condo_fee": 2846,
+      "property_tax": 26776,
+      "rent_price": 5355
+    },
+    "amenities": [
+      "Churrasqueira",
+      "Estúdio de Yoga",
+      "Sala de Artes",
+      "Karaokê",
+      "Coleta Seletiva",
+      "Terraço Gourmet",
+      "Adega Climatizada",
+      "Serviço de Manobrista",
+      "Área de Piquenique"
+    ]
+  },
+  {
+    "id": "property_017",
+    "title": "Mansão em Saúde",
+    "type": "Mansão",
+    "business_type": "venda_aluguel",
+    "description": "Excelente mansão para moradia ou investimento em localização estratégica",
+    "features": {
+      "area": 107,
+      "bedrooms": 2,
+      "suites": 0,
+      "parking_spots": 4,
+      "bathrooms": 4
+    },
+    "location": {
+      "neighborhood": "Brooklin",
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "prices": {
+      "condo_fee": 1440,
+      "property_tax": 24008,
+      "sale_price": 1200433,
+      "rent_price": 4801
+    },
+    "amenities": [
+      "Salão de Jogos",
+      "Energia Solar",
+      "Sauna Úmida",
+      "Espaço Gourmet"
+    ]
+  },
+  {
+    "id": "property_018",
+    "title": "Casa em Condomínio em Flamengo",
+    "type": "Casa em Condomínio",
+    "business_type": "venda",
+    "description": "casa em condomínio aconchegante em região tranquila, próximo a comércios e transporte",
+    "features": {
+      "area": 151,
+      "bedrooms": 2,
+      "suites": 1,
+      "parking_spots": 4,
+      "bathrooms": 1
+    },
+    "location": {
+      "neighborhood": "Jardim Botânico",
+      "city": "Rio de Janeiro",
+      "state": "RJ"
+    },
+    "prices": {
+      "condo_fee": 2454,
+      "property_tax": 28732,
+      "sale_price": 1436614
+    },
+    "amenities": [
+      "Captação de Água da Chuva",
+      "Brinquedoteca",
+      "Quadra Poliesportiva",
+      "Brinquedoteca",
+      "Bicicletário",
+      "Spa",
+      "Sala de Videoconferência",
+      "Espaço Kids",
+      "Campo de Futebol"
+    ]
+  },
+  {
+    "id": "property_019",
+    "title": "Flat em Recreio",
+    "type": "Flat",
+    "business_type": "aluguel",
+    "description": "flat bem localizado, 4 dormitórios e infraestrutura completa",
+    "features": {
+      "area": 237,
+      "bedrooms": 4,
+      "suites": 2,
+      "parking_spots": 4,
+      "bathrooms": 2
+    },
+    "location": {
+      "neighborhood": "Lagoa",
+      "city": "Rio de Janeiro",
+      "state": "RJ"
+    },
+    "prices": {
+      "condo_fee": 2226,
+      "property_tax": 61539,
+      "rent_price": 12307
+    },
+    "amenities": [
+      "Biblioteca",
+      "Sala de Videoconferência",
+      "Segurança 24h",
+      "Adega Climatizada",
+      "Sala de Reunião",
+      "Quadra Poliesportiva",
+      "Forno de Pizza",
+      "Pet Care",
+      "Piscina"
+    ]
+  },
+  {
+    "id": "property_020",
+    "title": "Cobertura em Chácara das Pedras",
+    "type": "Cobertura",
+    "business_type": "venda_aluguel",
+    "description": "cobertura com boa distribuição dos ambientes e localização privilegiada",
+    "features": {
+      "area": 335,
+      "bedrooms": 5,
+      "suites": 5,
+      "parking_spots": 4,
+      "bathrooms": 5
+    },
+    "location": {
+      "neighborhood": "Cristal",
+      "city": "Porto Alegre",
+      "state": "POA"
+    },
+    "prices": {
+      "condo_fee": 865,
+      "property_tax": 69458,
+      "sale_price": 3472945,
+      "rent_price": 13891
+    },
+    "amenities": [
+      "Academia 24h",
+      "Concierge",
+      "Centro Empresarial",
+      "Playground Coberto",
+      "Espaço Família"
+    ]
+  },
+  {
+    "id": "property_021",
+    "title": "Studio em Botafogo",
+    "type": "Studio",
+    "business_type": "aluguel",
+    "description": "studio aconchegante em região tranquila, próximo a comércios e transporte",
+    "features": {
+      "area": 232,
+      "bedrooms": 4,
+      "suites": 1,
+      "parking_spots": 2,
+      "bathrooms": 5
+    },
+    "location": {
+      "neighborhood": "Lagoa",
+      "city": "Rio de Janeiro",
+      "state": "RJ"
+    },
+    "prices": {
+      "condo_fee": 1821,
+      "property_tax": 45003,
+      "rent_price": 9000
+    },
+    "amenities": [
+      "Sala de Jogos",
+      "Captação de Água da Chuva",
+      "Sala de Meditação",
+      "Espaço Coworking",
+      "Horta Comunitária",
+      "Energia Solar",
+      "Coleta Seletiva",
+      "Salão de Festas",
+      "Academia"
+    ]
+  },
+  {
+    "id": "property_022",
+    "title": "Condomínio em Independência",
+    "type": "Condomínio",
+    "business_type": "venda_aluguel",
+    "description": "condomínio bem localizado, 1 dormitórios e infraestrutura completa",
+    "features": {
+      "area": 204,
+      "bedrooms": 1,
+      "suites": 0,
+      "parking_spots": 2,
+      "bathrooms": 3
+    },
+    "location": {
+      "neighborhood": "Cristal",
+      "city": "Porto Alegre",
+      "state": "POA"
+    },
+    "prices": {
+      "condo_fee": 2498,
+      "property_tax": 31881,
+      "sale_price": 1594056,
+      "rent_price": 6376
+    },
+    "amenities": [
+      "Portaria Blindada",
+      "Centro Empresarial",
+      "Estúdio de Yoga",
+      "Sala de Jogos",
+      "Serviço de Manobrista",
+      "Forno de Pizza",
+      "Espaço Pet",
+      "Quadra de Tênis",
+      "Área de Piquenique",
+      "Lava Rápido"
+    ]
+  },
+  {
+    "id": "property_023",
+    "title": "Flat em Rio Branco",
+    "type": "Flat",
+    "business_type": "venda_aluguel",
+    "description": "flat bem localizado, 4 dormitórios e infraestrutura completa",
+    "features": {
+      "area": 171,
+      "bedrooms": 4,
+      "suites": 2,
+      "parking_spots": 3,
+      "bathrooms": 1
+    },
+    "location": {
+      "neighborhood": "Bela Vista",
+      "city": "Porto Alegre",
+      "state": "POA"
+    },
+    "prices": {
+      "condo_fee": 1073,
+      "property_tax": 32192,
+      "sale_price": 1609623,
+      "rent_price": 6438
+    },
+    "amenities": [
+      "Brinquedoteca",
+      "Serviço de Manobrista",
+      "Piscina",
+      "Espaço Pet",
+      "Espaço Coworking",
+      "Lounge",
+      "Espaço Kids"
+    ]
+  },
+  {
+    "id": "property_024",
+    "title": "Apartamento em Jardins",
+    "type": "Apartamento",
+    "business_type": "venda",
+    "description": "Espetacular apartamento com vista privilegiada em Itaim Bibi",
+    "features": {
+      "area": 212,
+      "bedrooms": 4,
+      "suites": 0,
+      "parking_spots": 4,
+      "bathrooms": 5
+    },
+    "location": {
+      "neighborhood": "Vila Mariana",
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "prices": {
+      "condo_fee": 2353,
+      "property_tax": 37642,
+      "sale_price": 1882136
+    },
+    "amenities": [
+      "Sala de Videoconferência",
+      "Lava Rápido",
+      "Concierge",
+      "Internet Fibra Ótica",
+      "Depósito Privativo",
+      "Gerador",
+      "Espaço Musical",
+      "Pista de Corrida",
+      "Churrasqueira"
+    ]
+  },
+  {
+    "id": "property_025",
+    "title": "Kitnet em Higienópolis",
+    "type": "Kitnet",
+    "business_type": "venda",
+    "description": "kitnet com boa iluminação natural e vista livre em Menino Deus",
+    "features": {
+      "area": 482,
+      "bedrooms": 5,
+      "suites": 3,
+      "parking_spots": 2,
+      "bathrooms": 3
+    },
+    "location": {
+      "neighborhood": "Auxiliadora",
+      "city": "Porto Alegre",
+      "state": "POA"
+    },
+    "prices": {
+      "condo_fee": 1762,
+      "property_tax": 66998,
+      "sale_price": 3349900
+    },
+    "amenities": [
+      "Estúdio de Yoga",
+      "Gerador",
+      "Berçário",
+      "Espaço Zen",
+      "Sauna Úmida",
+      "Lounge",
+      "Salão de Jogos",
+      "Depósito Privativo",
+      "Coleta Seletiva",
+      "Pet Wash"
+    ]
+  },
+  {
+    "id": "property_026",
+    "title": "Cobertura em Freguesia",
+    "type": "Cobertura",
+    "business_type": "aluguel",
+    "description": "Moderno cobertura com conceito aberto e ambientes integrados",
+    "features": {
+      "area": 321,
+      "bedrooms": 3,
+      "suites": 0,
+      "parking_spots": 2,
+      "bathrooms": 3
+    },
+    "location": {
+      "neighborhood": "Grajaú",
+      "city": "Rio de Janeiro",
+      "state": "RJ"
+    },
+    "prices": {
+      "condo_fee": 1088,
+      "property_tax": 55115,
+      "rent_price": 11023
+    },
+    "amenities": [
+      "Energia Solar",
+      "Pet Care",
+      "Pub",
+      "Estúdio de Yoga",
+      "Gerador",
+      "Churrasqueira",
+      "Sala de Videoconferência",
+      "Sala de Estudos",
+      "Academia",
+      "Bar Esportivo"
+    ]
+  },
+  {
+    "id": "property_027",
+    "title": "Kitnet em Leblon",
+    "type": "Kitnet",
+    "business_type": "venda",
+    "description": "Ótima oportunidade: kitnet com 1 dormitórios em localização nobre",
+    "features": {
+      "area": 314,
+      "bedrooms": 1,
+      "suites": 1,
+      "parking_spots": 3,
+      "bathrooms": 1
+    },
+    "location": {
+      "neighborhood": "Urca",
+      "city": "Rio de Janeiro",
+      "state": "RJ"
+    },
+    "prices": {
+      "condo_fee": 538,
+      "property_tax": 65167,
+      "sale_price": 3258378
+    },
+    "amenities": [
+      "Pet Wash",
+      "Sala de Artes",
+      "Concierge",
+      "Bicicletário",
+      "Área de Piquenique",
+      "Sauna Seca",
+      "Jardim Zen",
+      "Espaço Musical"
+    ]
+  },
+  {
+    "id": "property_028",
+    "title": "Condomínio em Mangabeiras",
+    "type": "Condomínio",
+    "business_type": "aluguel",
+    "description": "condomínio em ótimo estado, com 3 quartos e área de lazer completa",
+    "features": {
+      "area": 128,
+      "bedrooms": 3,
+      "suites": 2,
+      "parking_spots": 1,
+      "bathrooms": 4
+    },
+    "location": {
+      "neighborhood": "Lourdes",
+      "city": "Belo Horizonte",
+      "state": "BH"
+    },
+    "prices": {
+      "condo_fee": 734,
+      "property_tax": 17446,
+      "rent_price": 3489
+    },
+    "amenities": [
+      "Espaço Coworking",
+      "Carregador para Carro Elétrico",
+      "Sala de Meditação",
+      "Pet Wash",
+      "Espaço Zen",
+      "Piscina Coberta",
+      "Playground",
+      "Espaço Musical"
+    ]
+  },
+  {
+    "id": "property_029",
+    "title": "Chalé em Mercês",
+    "type": "Chalé",
+    "business_type": "venda",
+    "description": "Sofisticado chalé em prédio novo com lazer completo e acabamento premium",
+    "features": {
+      "area": 378,
+      "bedrooms": 2,
+      "suites": 0,
+      "parking_spots": 4,
+      "bathrooms": 3
+    },
+    "location": {
+      "neighborhood": "Jardim Social",
+      "city": "Curitiba",
+      "state": "CWB"
+    },
+    "prices": {
+      "condo_fee": 1080,
+      "property_tax": 55233,
+      "sale_price": 2761668
+    },
+    "amenities": [
+      "Pet Care",
+      "Brinquedoteca",
+      "Espaço Musical",
+      "Espaço Kids",
+      "Sala de Meditação",
+      "Sauna Seca",
+      "Forno de Pizza"
+    ]
+  },
+  {
+    "id": "property_030",
+    "title": "Chalé em Urca",
+    "type": "Chalé",
+    "business_type": "venda",
+    "description": "Excelente chalé para moradia ou investimento em localização estratégica",
+    "features": {
+      "area": 203,
+      "bedrooms": 2,
+      "suites": 1,
+      "parking_spots": 2,
+      "bathrooms": 2
+    },
+    "location": {
+      "neighborhood": "Freguesia",
+      "city": "Rio de Janeiro",
+      "state": "RJ"
+    },
+    "prices": {
+      "condo_fee": 2196,
+      "property_tax": 32837,
+      "sale_price": 1641864
+    },
+    "amenities": [
+      "Espaço Coworking",
+      "Serviço de Manobrista",
+      "Sala de Entregas",
+      "Carregador para Carro Elétrico",
+      "Playground Coberto",
+      "Adega Climatizada"
+    ]
+  },
+  {
+    "id": "property_031",
+    "title": "Vila em Laranjeiras",
+    "type": "Vila",
+    "business_type": "aluguel",
+    "description": "Excelente vila para moradia ou investimento em localização estratégica",
+    "features": {
+      "area": 384,
+      "bedrooms": 2,
+      "suites": 1,
+      "parking_spots": 1,
+      "bathrooms": 1
+    },
+    "location": {
+      "neighborhood": "São Conrado",
+      "city": "Rio de Janeiro",
+      "state": "RJ"
+    },
+    "prices": {
+      "condo_fee": 2453,
+      "property_tax": 58913,
+      "rent_price": 11782
+    },
+    "amenities": [
+      "Espaço Família",
+      "Área de Piquenique",
+      "Circuito CFTV",
+      "Composteira",
+      "Horta Comunitária",
+      "Pet Wash",
+      "Spa",
+      "Sala de Videoconferência"
+    ]
+  },
+  {
+    "id": "property_032",
+    "title": "Cobertura em Tatuapé",
+    "type": "Cobertura",
+    "business_type": "venda_aluguel",
+    "description": "Excelente cobertura para moradia ou investimento em localização estratégica",
+    "features": {
+      "area": 371,
+      "bedrooms": 2,
+      "suites": 1,
+      "parking_spots": 3,
+      "bathrooms": 2
+    },
+    "location": {
+      "neighborhood": "Santana",
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "prices": {
+      "condo_fee": 767,
+      "property_tax": 75320,
+      "sale_price": 3766021,
+      "rent_price": 15064
+    },
+    "amenities": [
+      "Karaokê",
+      "Lava Rápido",
+      "Espaço Gourmet",
+      "Pub",
+      "Segurança 24h",
+      "Pet Wash",
+      "Sala de Videoconferência",
+      "Serviço de Manobrista",
+      "Portaria Blindada"
+    ]
+  },
+  {
+    "id": "property_033",
+    "title": "Casa em Laranjeiras",
+    "type": "Casa",
+    "business_type": "aluguel",
+    "description": "Exclusivo casa em localização premium com 475m² bem distribuídos",
+    "features": {
+      "area": 475,
+      "bedrooms": 3,
+      "suites": 0,
+      "parking_spots": 1,
+      "bathrooms": 3
+    },
+    "location": {
+      "neighborhood": "Botafogo",
+      "city": "Rio de Janeiro",
+      "state": "RJ"
+    },
+    "prices": {
+      "condo_fee": 1667,
+      "property_tax": 128582,
+      "rent_price": 25716
+    },
+    "amenities": [
+      "Jardim de Cerveja",
+      "Depósito Privativo",
+      "Salão de Jogos",
+      "Espaço Gourmet",
+      "Horta Comunitária",
+      "Circuito CFTV",
+      "Berçário",
+      "Lavanderia"
+    ]
+  },
+  {
+    "id": "property_034",
+    "title": "Apartamento em Flamengo",
+    "type": "Apartamento",
+    "business_type": "aluguel",
+    "description": "Excelente apartamento para moradia ou investimento em localização estratégica",
+    "features": {
+      "area": 201,
+      "bedrooms": 3,
+      "suites": 1,
+      "parking_spots": 3,
+      "bathrooms": 1
+    },
+    "location": {
+      "neighborhood": "Laranjeiras",
+      "city": "Rio de Janeiro",
+      "state": "RJ"
+    },
+    "prices": {
+      "condo_fee": 1013,
+      "property_tax": 55922,
+      "rent_price": 11184
+    },
+    "amenities": [
+      "Sauna Seca",
+      "Espaço Gourmet",
+      "Brinquedoteca",
+      "Forno de Pizza",
+      "Serviço de Manobrista"
+    ]
+  },
+  {
+    "id": "property_035",
+    "title": "Condomínio em Vila Leopoldina",
+    "type": "Condomínio",
+    "business_type": "venda_aluguel",
+    "description": "condomínio bem localizado, 5 dormitórios e infraestrutura completa",
+    "features": {
+      "area": 394,
+      "bedrooms": 5,
+      "suites": 1,
+      "parking_spots": 2,
+      "bathrooms": 4
+    },
+    "location": {
+      "neighborhood": "Santo Amaro",
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "prices": {
+      "condo_fee": 779,
+      "property_tax": 108058,
+      "sale_price": 5402922,
+      "rent_price": 21611
+    },
+    "amenities": [
+      "Pet Care",
+      "Quadra Poliesportiva",
+      "Lava Rápido",
+      "Sala de Videoconferência",
+      "Internet Fibra Ótica",
+      "Playground Coberto",
+      "Campo de Futebol",
+      "Salão de Jogos"
+    ]
+  },
+  {
+    "id": "property_036",
+    "title": "Mansão em Água Verde",
+    "type": "Mansão",
+    "business_type": "venda_aluguel",
+    "description": "mansão bem localizado, 1 dormitórios e infraestrutura completa",
+    "features": {
+      "area": 315,
+      "bedrooms": 1,
+      "suites": 0,
+      "parking_spots": 4,
+      "bathrooms": 1
+    },
+    "location": {
+      "neighborhood": "Rebouças",
+      "city": "Curitiba",
+      "state": "CWB"
+    },
+    "prices": {
+      "condo_fee": 2821,
+      "property_tax": 54778,
+      "sale_price": 2738925,
+      "rent_price": 10955
+    },
+    "amenities": [
+      "Gerador",
+      "Bicicletário",
+      "Serviço de Manobrista",
+      "Carregador para Carro Elétrico"
+    ]
+  },
+  {
+    "id": "property_037",
+    "title": "Apartamento em Batel",
+    "type": "Apartamento",
+    "business_type": "aluguel",
+    "description": "apartamento com boa distribuição dos ambientes e localização privilegiada",
+    "features": {
+      "area": 437,
+      "bedrooms": 5,
+      "suites": 2,
+      "parking_spots": 1,
+      "bathrooms": 6
+    },
+    "location": {
+      "neighborhood": "Centro",
+      "city": "Curitiba",
+      "state": "CWB"
+    },
+    "prices": {
+      "condo_fee": 1270,
+      "property_tax": 73293,
+      "rent_price": 14658
+    },
+    "amenities": [
+      "Sauna Seca",
+      "Carregador para Carro Elétrico",
+      "Academia 24h",
+      "Serviço de Manobrista",
+      "Espaço Família",
+      "Piscina Aquecida",
+      "Espaço Musical",
+      "Estúdio de Yoga"
+    ]
+  },
+  {
+    "id": "property_038",
+    "title": "Cobertura em Ipanema",
+    "type": "Cobertura",
+    "business_type": "venda",
+    "description": "cobertura com boa distribuição dos ambientes e localização privilegiada",
+    "features": {
+      "area": 412,
+      "bedrooms": 4,
+      "suites": 1,
+      "parking_spots": 1,
+      "bathrooms": 2
+    },
+    "location": {
+      "neighborhood": "Três Figueiras",
+      "city": "Porto Alegre",
+      "state": "POA"
+    },
+    "prices": {
+      "condo_fee": 2071,
+      "property_tax": 52233,
+      "sale_price": 2611668
+    },
+    "amenities": [
+      "Circuito CFTV",
+      "Churrasqueira",
+      "Espaço Zen",
+      "Lava Rápido",
+      "Lavanderia"
+    ]
+  },
+  {
+    "id": "property_039",
+    "title": "Casa em Lagoa",
+    "type": "Casa",
+    "business_type": "venda_aluguel",
+    "description": "Lindo casa com acabamento de alto padrão e total infraestrutura",
+    "features": {
+      "area": 428,
+      "bedrooms": 1,
+      "suites": 0,
+      "parking_spots": 1,
+      "bathrooms": 1
+    },
+    "location": {
+      "neighborhood": "Freguesia",
+      "city": "Rio de Janeiro",
+      "state": "RJ"
+    },
+    "prices": {
+      "condo_fee": 1050,
+      "property_tax": 63138,
+      "sale_price": 3156928,
+      "rent_price": 12627
+    },
+    "amenities": [
+      "Lounge",
+      "Sala de Meditação",
+      "Espaço Gourmet",
+      "Spa",
+      "Sala de Artes",
+      "Jardim Zen"
+    ]
+  },
+  {
+    "id": "property_040",
+    "title": "Casa em Condomínio em Vila Olímpia",
+    "type": "Casa em Condomínio",
+    "business_type": "aluguel",
+    "description": "Amplo casa em condomínio com 79m² em região bem servida de comércio e serviços",
+    "features": {
+      "area": 79,
+      "bedrooms": 1,
+      "suites": 0,
+      "parking_spots": 4,
+      "bathrooms": 2
+    },
+    "location": {
+      "neighborhood": "Vila Leopoldina",
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "prices": {
+      "condo_fee": 3000,
+      "property_tax": 13619,
+      "rent_price": 2723
+    },
+    "amenities": [
+      "Salão de Festas",
+      "Brinquedoteca",
+      "Piscina Aquecida",
+      "Berçário",
+      "Bicicletário",
+      "Pet Wash",
+      "Playground",
+      "Lounge",
+      "Sauna Úmida",
+      "Sala de Meditação"
+    ]
+  },
+  {
+    "id": "property_041",
+    "title": "Chalé em Juvevê",
+    "type": "Chalé",
+    "business_type": "venda_aluguel",
+    "description": "Imponente chalé com 4 dormitórios e vista deslumbrante de Batel",
+    "features": {
+      "area": 420,
+      "bedrooms": 4,
+      "suites": 3,
+      "parking_spots": 4,
+      "bathrooms": 6
+    },
+    "location": {
+      "neighborhood": "Jardim Social",
+      "city": "Curitiba",
+      "state": "CWB"
+    },
+    "prices": {
+      "condo_fee": 1629,
+      "property_tax": 78632,
+      "sale_price": 3931620,
+      "rent_price": 15726
+    },
+    "amenities": [
+      "Jardim de Cerveja",
+      "Piscina Coberta",
+      "Brinquedoteca",
+      "Quadra de Tênis",
+      "Berçário",
+      "Sala de Videoconferência",
+      "Adega Climatizada",
+      "Segurança 24h"
+    ]
+  },
+  {
+    "id": "property_042",
+    "title": "Apartamento em Moema",
+    "type": "Apartamento",
+    "business_type": "venda_aluguel",
+    "description": "Ótima oportunidade: apartamento com 3 dormitórios em localização nobre",
+    "features": {
+      "area": 258,
+      "bedrooms": 3,
+      "suites": 1,
+      "parking_spots": 1,
+      "bathrooms": 5
+    },
+    "location": {
+      "neighborhood": "Moema",
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "prices": {
+      "condo_fee": 2502,
+      "property_tax": 52601,
+      "sale_price": 2630052,
+      "rent_price": 10520
+    },
+    "amenities": [
+      "Piscina",
+      "Playground",
+      "Concierge",
+      "Espaço Zen",
+      "Oficina de Bicicletas",
+      "Composteira"
+    ]
+  },
+  {
+    "id": "property_043",
+    "title": "Flat em Centro",
+    "type": "Flat",
+    "business_type": "venda",
+    "description": "flat com boa distribuição dos ambientes e localização privilegiada",
+    "features": {
+      "area": 285,
+      "bedrooms": 1,
+      "suites": 1,
+      "parking_spots": 3,
+      "bathrooms": 3
+    },
+    "location": {
+      "neighborhood": "Rebouças",
+      "city": "Curitiba",
+      "state": "CWB"
+    },
+    "prices": {
+      "condo_fee": 2878,
+      "property_tax": 44876,
+      "sale_price": 2243805
+    },
+    "amenities": [
+      "Sala de Videoconferência",
+      "Pub",
+      "Campo de Futebol",
+      "Brinquedoteca",
+      "Sala de Meditação",
+      "Bar Esportivo",
+      "Espaço Coworking",
+      "Centro Empresarial"
+    ]
+  },
+  {
+    "id": "property_044",
+    "title": "Casa em Tijuca",
+    "type": "Casa",
+    "business_type": "aluguel",
+    "description": "Espetacular casa com vista privilegiada em Copacabana",
+    "features": {
+      "area": 346,
+      "bedrooms": 4,
+      "suites": 1,
+      "parking_spots": 2,
+      "bathrooms": 2
+    },
+    "location": {
+      "neighborhood": "Méier",
+      "city": "Rio de Janeiro",
+      "state": "RJ"
+    },
+    "prices": {
+      "condo_fee": 1458,
+      "property_tax": 60141,
+      "rent_price": 12028
+    },
+    "amenities": [
+      "Salão de Festas",
+      "Brinquedoteca",
+      "Pomar",
+      "Academia",
+      "Karaokê",
+      "Espaço Kids"
+    ]
+  },
+  {
+    "id": "property_045",
+    "title": "Triplex em Bigorrilho",
+    "type": "Triplex",
+    "business_type": "aluguel",
+    "description": "Amplo triplex com 483m² em região bem servida de comércio e serviços",
+    "features": {
+      "area": 483,
+      "bedrooms": 3,
+      "suites": 3,
+      "parking_spots": 3,
+      "bathrooms": 5
+    },
+    "location": {
+      "neighborhood": "Bigorrilho",
+      "city": "Curitiba",
+      "state": "CWB"
+    },
+    "prices": {
+      "condo_fee": 1111,
+      "property_tax": 58056,
+      "rent_price": 11611
+    },
+    "amenities": [
+      "Churrasqueira",
+      "Energia Solar",
+      "Brinquedoteca",
+      "Lounge",
+      "Sala de Massagem",
+      "Espaço Musical",
+      "Brinquedoteca",
+      "Quadra de Tênis",
+      "Captação de Água da Chuva",
+      "Depósito Privativo"
+    ]
+  },
+  {
+    "id": "property_046",
+    "title": "Kitnet em Auxiliadora",
+    "type": "Kitnet",
+    "business_type": "venda",
+    "description": "Amplo kitnet com 88m² em região bem servida de comércio e serviços",
+    "features": {
+      "area": 88,
+      "bedrooms": 4,
+      "suites": 1,
+      "parking_spots": 1,
+      "bathrooms": 1
+    },
+    "location": {
+      "neighborhood": "Cidade Baixa",
+      "city": "Porto Alegre",
+      "state": "POA"
+    },
+    "prices": {
+      "condo_fee": 769,
+      "property_tax": 15201,
+      "sale_price": 760056
+    },
+    "amenities": [
+      "Quadra de Squash",
+      "Sauna Úmida",
+      "Concierge",
+      "Sala de Estudos",
+      "Brinquedoteca"
+    ]
+  },
+  {
+    "id": "property_047",
+    "title": "Chalé em Botafogo",
+    "type": "Chalé",
+    "business_type": "venda_aluguel",
+    "description": "Lindo chalé com acabamento de alto padrão e total infraestrutura",
+    "features": {
+      "area": 177,
+      "bedrooms": 1,
+      "suites": 1,
+      "parking_spots": 1,
+      "bathrooms": 1
+    },
+    "location": {
+      "neighborhood": "Méier",
+      "city": "Rio de Janeiro",
+      "state": "RJ"
+    },
+    "prices": {
+      "condo_fee": 1436,
+      "property_tax": 48728,
+      "sale_price": 2436405,
+      "rent_price": 9745
+    },
+    "amenities": [
+      "Bicicletário",
+      "Serviço de Manobrista",
+      "Energia Solar",
+      "Terraço Gourmet",
+      "Espaço Gourmet",
+      "Circuito CFTV",
+      "Espaço Coworking",
+      "Serviço de Manobrista",
+      "Brinquedoteca"
+    ]
+  },
+  {
+    "id": "property_048",
+    "title": "Condomínio em Cabral",
+    "type": "Condomínio",
+    "business_type": "venda_aluguel",
+    "description": "Excelente condomínio para moradia ou investimento em localização estratégica",
+    "features": {
+      "area": 353,
+      "bedrooms": 1,
+      "suites": 1,
+      "parking_spots": 4,
+      "bathrooms": 3
+    },
+    "location": {
+      "neighborhood": "Cristo Rei",
+      "city": "Curitiba",
+      "state": "CWB"
+    },
+    "prices": {
+      "condo_fee": 1235,
+      "property_tax": 63518,
+      "sale_price": 3175941,
+      "rent_price": 12703
+    },
+    "amenities": [
+      "Serviço de Manobrista",
+      "Energia Solar",
+      "Sauna Seca",
+      "Playground Coberto",
+      "Brinquedoteca",
+      "Lava Rápido",
+      "Sala de Massagem",
+      "Segurança 24h",
+      "Lavanderia",
+      "Horta Comunitária"
+    ]
+  },
+  {
+    "id": "property_049",
+    "title": "Apartamento em Cavalhada",
+    "type": "Apartamento",
+    "business_type": "venda",
+    "description": "Espetacular apartamento com vista privilegiada em Boa Vista",
+    "features": {
+      "area": 239,
+      "bedrooms": 4,
+      "suites": 4,
+      "parking_spots": 2,
+      "bathrooms": 6
+    },
+    "location": {
+      "neighborhood": "Mont'Serrat",
+      "city": "Porto Alegre",
+      "state": "POA"
+    },
+    "prices": {
+      "condo_fee": 1201,
+      "property_tax": 41160,
+      "sale_price": 2058029
+    },
+    "amenities": [
+      "Coleta Seletiva",
+      "Espaço Gourmet",
+      "Portaria Blindada",
+      "Karaokê",
+      "Sala de Videoconferência"
+    ]
+  },
+  {
+    "id": "property_050",
+    "title": "Loft em Cruzeiro",
+    "type": "Loft",
+    "business_type": "aluguel",
+    "description": "Ótima oportunidade: loft com 3 dormitórios em localização nobre",
+    "features": {
+      "area": 496,
+      "bedrooms": 3,
+      "suites": 1,
+      "parking_spots": 1,
+      "bathrooms": 2
+    },
+    "location": {
+      "neighborhood": "São Pedro",
+      "city": "Belo Horizonte",
+      "state": "BH"
+    },
+    "prices": {
+      "condo_fee": 2603,
+      "property_tax": 68973,
+      "rent_price": 13794
+    },
+    "amenities": [
+      "Sauna Úmida",
+      "Área de Piquenique",
+      "Piscina Coberta",
+      "Campo de Futebol"
+    ]
+  },
+  {
+    "id": "property_051",
+    "title": "Casa em Santo Agostinho",
+    "type": "Casa",
+    "business_type": "venda_aluguel",
+    "description": "Lindo casa com acabamento de alto padrão e total infraestrutura",
+    "features": {
+      "area": 463,
+      "bedrooms": 1,
+      "suites": 1,
+      "parking_spots": 1,
+      "bathrooms": 2
+    },
+    "location": {
+      "neighborhood": "Luxemburgo",
+      "city": "Belo Horizonte",
+      "state": "BH"
+    },
+    "prices": {
+      "condo_fee": 2385,
+      "property_tax": 73672,
+      "sale_price": 3683628,
+      "rent_price": 14734
+    },
+    "amenities": [
+      "Salão de Festas",
+      "Internet Fibra Ótica",
+      "Serviço de Manobrista",
+      "Estúdio de Yoga",
+      "Oficina de Bicicletas",
+      "Sala de Massagem",
+      "Piscina",
+      "Quadra Poliesportiva",
+      "Sala de Reunião",
+      "Sauna Úmida"
+    ]
+  },
+  {
+    "id": "property_052",
+    "title": "Mansão em São Conrado",
+    "type": "Mansão",
+    "business_type": "venda_aluguel",
+    "description": "Ótimo mansão com 34m², 1 quartos em Taquara",
+    "features": {
+      "area": 34,
+      "bedrooms": 1,
+      "suites": 0,
+      "parking_spots": 4,
+      "bathrooms": 2
+    },
+    "location": {
+      "neighborhood": "Pechincha",
+      "city": "Rio de Janeiro",
+      "state": "RJ"
+    },
+    "prices": {
+      "condo_fee": 791,
+      "property_tax": 7412,
+      "sale_price": 370634,
+      "rent_price": 1482
+    },
+    "amenities": [
+      "Depósito Privativo",
+      "Espaço Coworking",
+      "Brinquedoteca",
+      "Bicicletário",
+      "Piscina Coberta",
+      "Sala de Reunião",
+      "Coleta Seletiva",
+      "Cinema",
+      "Energia Solar",
+      "Sala de Games"
+    ]
+  },
+  {
+    "id": "property_053",
+    "title": "Kitnet em Jardim Oceânico",
+    "type": "Kitnet",
+    "business_type": "venda_aluguel",
+    "description": "Elegante kitnet em região nobre com total privacidade",
+    "features": {
+      "area": 150,
+      "bedrooms": 4,
+      "suites": 4,
+      "parking_spots": 2,
+      "bathrooms": 5
+    },
+    "location": {
+      "neighborhood": "Laranjeiras",
+      "city": "Rio de Janeiro",
+      "state": "RJ"
+    },
+    "prices": {
+      "condo_fee": 1279,
+      "property_tax": 37257,
+      "sale_price": 1862850,
+      "rent_price": 7451
+    },
+    "amenities": [
+      "Playground",
+      "Sala de Meditação",
+      "Karaokê",
+      "Sala de Artes",
+      "Academia",
+      "Serviço de Manobrista",
+      "Pub",
+      "Sauna Úmida",
+      "Piscina",
+      "Pet Wash"
+    ]
+  },
+  {
+    "id": "property_054",
+    "title": "Triplex em Carmo",
+    "type": "Triplex",
+    "business_type": "venda_aluguel",
+    "description": "triplex em ótimo estado, com 4 quartos e área de lazer completa",
+    "features": {
+      "area": 285,
+      "bedrooms": 4,
+      "suites": 0,
+      "parking_spots": 4,
+      "bathrooms": 5
+    },
+    "location": {
+      "neighborhood": "Carmo",
+      "city": "Belo Horizonte",
+      "state": "BH"
+    },
+    "prices": {
+      "condo_fee": 1144,
+      "property_tax": 45001,
+      "sale_price": 2250075,
+      "rent_price": 9000
+    },
+    "amenities": [
+      "Lounge",
+      "Jardim de Cerveja",
+      "Sala de Reunião",
+      "Espaço Kids",
+      "Sauna Seca"
+    ]
+  },
+  {
+    "id": "property_055",
+    "title": "Casa em Moema",
+    "type": "Casa",
+    "business_type": "aluguel",
+    "description": "Elegante casa em região nobre com total privacidade",
+    "features": {
+      "area": 468,
+      "bedrooms": 2,
+      "suites": 1,
+      "parking_spots": 1,
+      "bathrooms": 2
+    },
+    "location": {
+      "neighborhood": "Chácara Flora",
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "prices": {
+      "condo_fee": 765,
+      "property_tax": 87965,
+      "rent_price": 17593
+    },
+    "amenities": [
+      "Depósito Privativo",
+      "Centro Empresarial",
+      "Jardim Zen",
+      "Segurança 24h",
+      "Área de Piquenique",
+      "Terraço Gourmet"
+    ]
+  },
+  {
+    "id": "property_056",
+    "title": "Casa em Condomínio em Humaitá",
+    "type": "Casa em Condomínio",
+    "business_type": "aluguel",
+    "description": "Excelente casa em condomínio para moradia ou investimento em localização estratégica",
+    "features": {
+      "area": 154,
+      "bedrooms": 1,
+      "suites": 0,
+      "parking_spots": 1,
+      "bathrooms": 2
+    },
+    "location": {
+      "neighborhood": "Pechincha",
+      "city": "Rio de Janeiro",
+      "state": "RJ"
+    },
+    "prices": {
+      "condo_fee": 2396,
+      "property_tax": 35068,
+      "rent_price": 7013
+    },
+    "amenities": [
+      "Forno de Pizza",
+      "Sala de Videoconferência",
+      "Berçário",
+      "Academia",
+      "Espaço Kids",
+      "Portaria Blindada"
+    ]
+  },
+  {
+    "id": "property_057",
+    "title": "Condomínio em Mercês",
+    "type": "Condomínio",
+    "business_type": "aluguel",
+    "description": "Ótima oportunidade: condomínio com 4 dormitórios em localização nobre",
+    "features": {
+      "area": 218,
+      "bedrooms": 4,
+      "suites": 2,
+      "parking_spots": 3,
+      "bathrooms": 5
+    },
+    "location": {
+      "neighborhood": "Batel",
+      "city": "Curitiba",
+      "state": "CWB"
+    },
+    "prices": {
+      "condo_fee": 1615,
+      "property_tax": 31915,
+      "rent_price": 6383
+    },
+    "amenities": [
+      "Espaço Musical",
+      "Sala de Meditação",
+      "Sala de Entregas",
+      "Bicicletário",
+      "Pet Care",
+      "Gerador",
+      "Espaço Zen",
+      "Playground",
+      "Academia"
+    ]
+  },
+  {
+    "id": "property_058",
+    "title": "Cobertura em Auxiliadora",
+    "type": "Cobertura",
+    "business_type": "venda_aluguel",
+    "description": "Moderno cobertura com conceito aberto e ambientes integrados",
+    "features": {
+      "area": 394,
+      "bedrooms": 1,
+      "suites": 0,
+      "parking_spots": 4,
+      "bathrooms": 2
+    },
+    "location": {
+      "neighborhood": "Chácara das Pedras",
+      "city": "Porto Alegre",
+      "state": "POA"
+    },
+    "prices": {
+      "condo_fee": 667,
+      "property_tax": 85742,
+      "sale_price": 4287114,
+      "rent_price": 17148
+    },
+    "amenities": [
+      "Internet Fibra Ótica",
+      "Sala de Meditação",
+      "Lounge",
+      "Serviço de Manobrista",
+      "Composteira",
+      "Academia 24h",
+      "Quadra de Tênis"
+    ]
+  },
+  {
+    "id": "property_059",
+    "title": "Chalé em São Conrado",
+    "type": "Chalé",
+    "business_type": "venda_aluguel",
+    "description": "Excelente chalé para moradia ou investimento em localização estratégica",
+    "features": {
+      "area": 86,
+      "bedrooms": 3,
+      "suites": 0,
+      "parking_spots": 4,
+      "bathrooms": 3
+    },
+    "location": {
+      "neighborhood": "Botafogo",
+      "city": "Rio de Janeiro",
+      "state": "RJ"
+    },
+    "prices": {
+      "condo_fee": 817,
+      "property_tax": 23918,
+      "sale_price": 1195916,
+      "rent_price": 4783
+    },
+    "amenities": [
+      "Espaço Pet",
+      "Sala de Reunião",
+      "Composteira",
+      "Quadra de Squash",
+      "Churrasqueira",
+      "Pomar"
+    ]
+  },
+  {
+    "id": "property_060",
+    "title": "Casa em Vila Olímpia",
+    "type": "Casa",
+    "business_type": "venda_aluguel",
+    "description": "Elegante casa em região nobre com total privacidade",
+    "features": {
+      "area": 127,
+      "bedrooms": 5,
+      "suites": 1,
+      "parking_spots": 3,
+      "bathrooms": 1
+    },
+    "location": {
+      "neighborhood": "Pompeia",
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "prices": {
+      "condo_fee": 2456,
+      "property_tax": 26908,
+      "sale_price": 1345438,
+      "rent_price": 5381
+    },
+    "amenities": [
+      "Salão de Jogos",
+      "Composteira",
+      "Pet Wash",
+      "Piscina Aquecida",
+      "Sala de Entregas",
+      "Sala de Massagem",
+      "Pub",
+      "Pista de Corrida",
+      "Portaria Blindada"
+    ]
+  },
+  {
+    "id": "property_061",
+    "title": "Vila em Higienópolis",
+    "type": "Vila",
+    "business_type": "venda_aluguel",
+    "description": "vila com boa distribuição dos ambientes e localização privilegiada",
+    "features": {
+      "area": 86,
+      "bedrooms": 3,
+      "suites": 0,
+      "parking_spots": 4,
+      "bathrooms": 1
+    },
+    "location": {
+      "neighborhood": "Rio Branco",
+      "city": "Porto Alegre",
+      "state": "POA"
+    },
+    "prices": {
+      "condo_fee": 2164,
+      "property_tax": 16131,
+      "sale_price": 806594,
+      "rent_price": 3226
+    },
+    "amenities": [
+      "Carregador para Carro Elétrico",
+      "Playground",
+      "Portaria Blindada",
+      "Coleta Seletiva",
+      "Academia"
+    ]
+  },
+  {
+    "id": "property_062",
+    "title": "Vila em Auxiliadora",
+    "type": "Vila",
+    "business_type": "venda",
+    "description": "Lindo vila com acabamento de alto padrão e total infraestrutura",
+    "features": {
+      "area": 73,
+      "bedrooms": 4,
+      "suites": 3,
+      "parking_spots": 3,
+      "bathrooms": 5
+    },
+    "location": {
+      "neighborhood": "Menino Deus",
+      "city": "Porto Alegre",
+      "state": "POA"
+    },
+    "prices": {
+      "condo_fee": 2746,
+      "property_tax": 14820,
+      "sale_price": 741023
+    },
+    "amenities": [
+      "Quadra de Tênis",
+      "Espaço Pet",
+      "Estúdio de Yoga",
+      "Academia",
+      "Spa"
+    ]
+  },
+  {
+    "id": "property_063",
+    "title": "Chalé em Brooklin",
+    "type": "Chalé",
+    "business_type": "aluguel",
+    "description": "chalé em ótimo estado, com 3 quartos e área de lazer completa",
+    "features": {
+      "area": 166,
+      "bedrooms": 3,
+      "suites": 0,
+      "parking_spots": 2,
+      "bathrooms": 2
+    },
+    "location": {
+      "neighborhood": "Campo Belo",
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "prices": {
+      "condo_fee": 2104,
+      "property_tax": 48213,
+      "rent_price": 9642
+    },
+    "amenities": [
+      "Gerador",
+      "Espaço Coworking",
+      "Quadra de Tênis",
+      "Academia",
+      "Sauna Seca",
+      "Espaço Kids"
+    ]
+  },
+  {
+    "id": "property_064",
+    "title": "Cobertura em Santo Antônio",
+    "type": "Cobertura",
+    "business_type": "venda",
+    "description": "Moderno cobertura com conceito aberto e ambientes integrados",
+    "features": {
+      "area": 120,
+      "bedrooms": 1,
+      "suites": 0,
+      "parking_spots": 4,
+      "bathrooms": 2
+    },
+    "location": {
+      "neighborhood": "São Pedro",
+      "city": "Belo Horizonte",
+      "state": "BH"
+    },
+    "prices": {
+      "condo_fee": 655,
+      "property_tax": 19572,
+      "sale_price": 978600
+    },
+    "amenities": [
+      "Jardim de Cerveja",
+      "Carregador para Carro Elétrico",
+      "Playground Coberto",
+      "Quadra Poliesportiva",
+      "Sala de Estudos",
+      "Piscina",
+      "Espaço Musical",
+      "Piscina Coberta",
+      "Biblioteca"
+    ]
+  },
+  {
+    "id": "property_065",
+    "title": "Casa em Condomínio em Santo Antônio",
+    "type": "Casa em Condomínio",
+    "business_type": "aluguel",
+    "description": "casa em condomínio em ótimo estado, com 3 quartos e área de lazer completa",
+    "features": {
+      "area": 243,
+      "bedrooms": 3,
+      "suites": 0,
+      "parking_spots": 4,
+      "bathrooms": 2
+    },
+    "location": {
+      "neighborhood": "Luxemburgo",
+      "city": "Belo Horizonte",
+      "state": "BH"
+    },
+    "prices": {
+      "condo_fee": 2956,
+      "property_tax": 34063,
+      "rent_price": 6812
+    },
+    "amenities": [
+      "Campo de Futebol",
+      "Quadra Poliesportiva",
+      "Piscina Coberta",
+      "Coleta Seletiva",
+      "Karaokê",
+      "Lavanderia",
+      "Espaço Gourmet"
+    ]
+  },
+  {
+    "id": "property_066",
+    "title": "Triplex em Itaim Bibi",
+    "type": "Triplex",
+    "business_type": "venda_aluguel",
+    "description": "triplex bem localizado, 2 dormitórios e infraestrutura completa",
+    "features": {
+      "area": 455,
+      "bedrooms": 2,
+      "suites": 0,
+      "parking_spots": 3,
+      "bathrooms": 4
+    },
+    "location": {
+      "neighborhood": "Morumbi",
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "prices": {
+      "condo_fee": 2940,
+      "property_tax": 111220,
+      "sale_price": 5561010,
+      "rent_price": 22244
+    },
+    "amenities": [
+      "Jardim de Cerveja",
+      "Sala de Reunião",
+      "Churrasqueira",
+      "Serviço de Manobrista",
+      "Sala de Massagem",
+      "Quadra de Tênis",
+      "Horta Comunitária",
+      "Sala de Artes",
+      "Bicicletário"
+    ]
+  },
+  {
+    "id": "property_067",
+    "title": "Casa em Condomínio em São Pedro",
+    "type": "Casa em Condomínio",
+    "business_type": "venda",
+    "description": "Lindo casa em condomínio com acabamento de alto padrão e total infraestrutura",
+    "features": {
+      "area": 309,
+      "bedrooms": 2,
+      "suites": 1,
+      "parking_spots": 3,
+      "bathrooms": 1
+    },
+    "location": {
+      "neighborhood": "Savassi",
+      "city": "Belo Horizonte",
+      "state": "BH"
+    },
+    "prices": {
+      "condo_fee": 1803,
+      "property_tax": 31141,
+      "sale_price": 1557051
+    },
+    "amenities": [
+      "Sauna Seca",
+      "Carregador para Carro Elétrico",
+      "Pub",
+      "Playground",
+      "Playground Coberto",
+      "Sala de Jogos",
+      "Sala de Massagem",
+      "Internet Fibra Ótica"
+    ]
+  },
+  {
+    "id": "property_068",
+    "title": "Casa em Condomínio em Cabral",
+    "type": "Casa em Condomínio",
+    "business_type": "venda",
+    "description": "Ótimo casa em condomínio com 36m², 2 quartos em Cristo Rei",
+    "features": {
+      "area": 36,
+      "bedrooms": 2,
+      "suites": 1,
+      "parking_spots": 3,
+      "bathrooms": 4
+    },
+    "location": {
+      "neighborhood": "Jardim Social",
+      "city": "Curitiba",
+      "state": "CWB"
+    },
+    "prices": {
+      "condo_fee": 697,
+      "property_tax": 5222,
+      "sale_price": 261144
+    },
+    "amenities": [
+      "Quadra Poliesportiva",
+      "Serviço de Manobrista",
+      "Sala de Jogos",
+      "Sala de Videoconferência",
+      "Forno de Pizza",
+      "Salão de Festas",
+      "Churrasqueira",
+      "Brinquedoteca",
+      "Quadra de Tênis",
+      "Depósito Privativo"
+    ]
+  },
+  {
+    "id": "property_069",
+    "title": "Casa em Condomínio em São Francisco",
+    "type": "Casa em Condomínio",
+    "business_type": "venda_aluguel",
+    "description": "Ótima oportunidade: casa em condomínio com 1 dormitórios em localização nobre",
+    "features": {
+      "area": 317,
+      "bedrooms": 1,
+      "suites": 1,
+      "parking_spots": 1,
+      "bathrooms": 1
+    },
+    "location": {
+      "neighborhood": "Centro",
+      "city": "Curitiba",
+      "state": "CWB"
+    },
+    "prices": {
+      "condo_fee": 1017,
+      "property_tax": 46992,
+      "sale_price": 2349604,
+      "rent_price": 9398
+    },
+    "amenities": [
+      "Sala de Jogos",
+      "Pub",
+      "Jardim de Cerveja",
+      "Bicicletário",
+      "Sala de Estudos",
+      "Salão de Festas",
+      "Internet Fibra Ótica",
+      "Quadra de Tênis",
+      "Área de Piquenique"
+    ]
+  },
+  {
+    "id": "property_070",
+    "title": "Vila em São Francisco",
+    "type": "Vila",
+    "business_type": "venda",
+    "description": "Excelente vila para moradia ou investimento em localização estratégica",
+    "features": {
+      "area": 213,
+      "bedrooms": 4,
+      "suites": 1,
+      "parking_spots": 4,
+      "bathrooms": 3
+    },
+    "location": {
+      "neighborhood": "Alto da Glória",
+      "city": "Curitiba",
+      "state": "CWB"
+    },
+    "prices": {
+      "condo_fee": 2837,
+      "property_tax": 32214,
+      "sale_price": 1610706
+    },
+    "amenities": [
+      "Circuito CFTV",
+      "Quadra de Tênis",
+      "Estúdio de Yoga",
+      "Segurança 24h",
+      "Energia Solar",
+      "Centro Empresarial",
+      "Churrasqueira"
+    ]
+  },
+  {
+    "id": "property_071",
+    "title": "Condomínio em Jardins",
+    "type": "Condomínio",
+    "business_type": "venda",
+    "description": "condomínio prático com ótimo aproveitamento de espaço em Consolação",
+    "features": {
+      "area": 62,
+      "bedrooms": 5,
+      "suites": 2,
+      "parking_spots": 1,
+      "bathrooms": 4
+    },
+    "location": {
+      "neighborhood": "Aclimação",
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "prices": {
+      "condo_fee": 1689,
+      "property_tax": 18347,
+      "sale_price": 917352
+    },
+    "amenities": [
+      "Centro Empresarial",
+      "Biblioteca",
+      "Sala de Meditação",
+      "Espaço Kids"
+    ]
+  },
+  {
+    "id": "property_072",
+    "title": "Apartamento em Moinhos de Vento",
+    "type": "Apartamento",
+    "business_type": "aluguel",
+    "description": "Exclusivo apartamento em localização premium com 231m² bem distribuídos",
+    "features": {
+      "area": 231,
+      "bedrooms": 3,
+      "suites": 3,
+      "parking_spots": 1,
+      "bathrooms": 5
+    },
+    "location": {
+      "neighborhood": "Chácara das Pedras",
+      "city": "Porto Alegre",
+      "state": "POA"
+    },
+    "prices": {
+      "condo_fee": 2991,
+      "property_tax": 33102,
+      "rent_price": 6620
+    },
+    "amenities": [
+      "Sala de Meditação",
+      "Espaço Família",
+      "Bar Esportivo",
+      "Pet Care",
+      "Coleta Seletiva",
+      "Espaço Gourmet"
+    ]
+  },
+  {
+    "id": "property_073",
+    "title": "Kitnet em Belvedere",
+    "type": "Kitnet",
+    "business_type": "venda",
+    "description": "kitnet reformado com acabamento moderno e excelente área de convivência",
+    "features": {
+      "area": 289,
+      "bedrooms": 3,
+      "suites": 1,
+      "parking_spots": 2,
+      "bathrooms": 5
+    },
+    "location": {
+      "neighborhood": "Funcionários",
+      "city": "Belo Horizonte",
+      "state": "BH"
+    },
+    "prices": {
+      "condo_fee": 1014,
+      "property_tax": 46505,
+      "sale_price": 2325294
+    },
+    "amenities": [
+      "Berçário",
+      "Pista de Corrida",
+      "Sala de Estudos",
+      "Serviço de Manobrista",
+      "Carregador para Carro Elétrico",
+      "Cinema"
+    ]
+  },
+  {
+    "id": "property_074",
+    "title": "Loft em Anchieta",
+    "type": "Loft",
+    "business_type": "aluguel",
+    "description": "Ótimo loft com 284m², 2 quartos em Santo Agostinho",
+    "features": {
+      "area": 284,
+      "bedrooms": 2,
+      "suites": 2,
+      "parking_spots": 3,
+      "bathrooms": 3
+    },
+    "location": {
+      "neighborhood": "Savassi",
+      "city": "Belo Horizonte",
+      "state": "BH"
+    },
+    "prices": {
+      "condo_fee": 2667,
+      "property_tax": 34596,
+      "rent_price": 6919
+    },
+    "amenities": [
+      "Karaokê",
+      "Bicicletário",
+      "Academia",
+      "Quadra de Tênis",
+      "Área de Piquenique",
+      "Espaço Família",
+      "Espaço Gourmet",
+      "Horta Comunitária",
+      "Sala de Estudos",
+      "Salão de Jogos"
+    ]
+  },
+  {
+    "id": "property_075",
+    "title": "Casa em Aclimação",
+    "type": "Casa",
+    "business_type": "aluguel",
+    "description": "casa em ótimo estado, com 5 quartos e área de lazer completa",
+    "features": {
+      "area": 76,
+      "bedrooms": 5,
+      "suites": 3,
+      "parking_spots": 4,
+      "bathrooms": 7
+    },
+    "location": {
+      "neighborhood": "Chácara Flora",
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "prices": {
+      "condo_fee": 2583,
+      "property_tax": 18749,
+      "rent_price": 3749
+    },
+    "amenities": [
+      "Internet Fibra Ótica",
+      "Pet Wash",
+      "Quadra Poliesportiva",
+      "Serviço de Manobrista"
+    ]
+  },
+  {
+    "id": "property_076",
+    "title": "Mansão em Serra",
+    "type": "Mansão",
+    "business_type": "aluguel",
+    "description": "mansão com boa distribuição dos ambientes e localização privilegiada",
+    "features": {
+      "area": 157,
+      "bedrooms": 1,
+      "suites": 0,
+      "parking_spots": 3,
+      "bathrooms": 2
+    },
+    "location": {
+      "neighborhood": "Sion",
+      "city": "Belo Horizonte",
+      "state": "BH"
+    },
+    "prices": {
+      "condo_fee": 1777,
+      "property_tax": 17527,
+      "rent_price": 3505
+    },
+    "amenities": [
+      "Terraço Gourmet",
+      "Sala de Meditação",
+      "Oficina de Bicicletas",
+      "Pet Care",
+      "Piscina Coberta",
+      "Sala de Artes",
+      "Quadra de Squash",
+      "Jardim Zen"
+    ]
+  },
+  {
+    "id": "property_077",
+    "title": "Duplex em Flamengo",
+    "type": "Duplex",
+    "business_type": "venda",
+    "description": "Ótima oportunidade: duplex com 4 dormitórios em localização nobre",
+    "features": {
+      "area": 198,
+      "bedrooms": 4,
+      "suites": 4,
+      "parking_spots": 3,
+      "bathrooms": 3
+    },
+    "location": {
+      "neighborhood": "Botafogo",
+      "city": "Rio de Janeiro",
+      "state": "RJ"
+    },
+    "prices": {
+      "condo_fee": 2245,
+      "property_tax": 28911,
+      "sale_price": 1445598
+    },
+    "amenities": [
+      "Spa",
+      "Espaço Família",
+      "Jardim de Cerveja",
+      "Campo de Futebol",
+      "Salão de Festas",
+      "Sala de Jogos",
+      "Depósito Privativo",
+      "Brinquedoteca",
+      "Piscina",
+      "Forno de Pizza"
+    ]
+  },
+  {
+    "id": "property_078",
+    "title": "Duplex em Mangabeiras",
+    "type": "Duplex",
+    "business_type": "venda_aluguel",
+    "description": "Sofisticado duplex em prédio novo com lazer completo e acabamento premium",
+    "features": {
+      "area": 414,
+      "bedrooms": 4,
+      "suites": 4,
+      "parking_spots": 3,
+      "bathrooms": 5
+    },
+    "location": {
+      "neighborhood": "Lourdes",
+      "city": "Belo Horizonte",
+      "state": "BH"
+    },
+    "prices": {
+      "condo_fee": 1234,
+      "property_tax": 52942,
+      "sale_price": 2647116,
+      "rent_price": 10588
+    },
+    "amenities": [
+      "Energia Solar",
+      "Pet Wash",
+      "Lounge",
+      "Internet Fibra Ótica",
+      "Depósito Privativo",
+      "Espaço Musical",
+      "Salão de Jogos",
+      "Academia 24h"
+    ]
+  },
+  {
+    "id": "property_079",
+    "title": "Loft em Recreio",
+    "type": "Loft",
+    "business_type": "venda_aluguel",
+    "description": "Moderno loft com conceito aberto e ambientes integrados",
+    "features": {
+      "area": 398,
+      "bedrooms": 4,
+      "suites": 3,
+      "parking_spots": 1,
+      "bathrooms": 4
+    },
+    "location": {
+      "neighborhood": "Freguesia",
+      "city": "Rio de Janeiro",
+      "state": "RJ"
+    },
+    "prices": {
+      "condo_fee": 2669,
+      "property_tax": 70955,
+      "sale_price": 3547772,
+      "rent_price": 14191
+    },
+    "amenities": [
+      "Coleta Seletiva",
+      "Horta Comunitária",
+      "Salão de Festas",
+      "Quadra de Squash",
+      "Piscina",
+      "Forno de Pizza",
+      "Portaria Blindada",
+      "Espaço Gourmet",
+      "Churrasqueira"
+    ]
+  },
+  {
+    "id": "property_080",
+    "title": "Condomínio em Água Verde",
+    "type": "Condomínio",
+    "business_type": "venda_aluguel",
+    "description": "condomínio bem localizado, 2 dormitórios e infraestrutura completa",
+    "features": {
+      "area": 50,
+      "bedrooms": 2,
+      "suites": 2,
+      "parking_spots": 4,
+      "bathrooms": 2
+    },
+    "location": {
+      "neighborhood": "Bigorrilho",
+      "city": "Curitiba",
+      "state": "CWB"
+    },
+    "prices": {
+      "condo_fee": 1999,
+      "property_tax": 8010,
+      "sale_price": 400500,
+      "rent_price": 1602
+    },
+    "amenities": [
+      "Quadra de Squash",
+      "Espaço Pet",
+      "Coleta Seletiva",
+      "Academia",
+      "Área de Piquenique"
+    ]
+  },
+  {
+    "id": "property_081",
+    "title": "Duplex em Mont'Serrat",
+    "type": "Duplex",
+    "business_type": "venda_aluguel",
+    "description": "Amplo duplex com 302m² em região bem servida de comércio e serviços",
+    "features": {
+      "area": 302,
+      "bedrooms": 4,
+      "suites": 3,
+      "parking_spots": 1,
+      "bathrooms": 1
+    },
+    "location": {
+      "neighborhood": "Boa Vista",
+      "city": "Porto Alegre",
+      "state": "POA"
+    },
+    "prices": {
+      "condo_fee": 1919,
+      "property_tax": 49425,
+      "sale_price": 2471266,
+      "rent_price": 9885
+    },
+    "amenities": [
+      "Portaria Blindada",
+      "Churrasqueira",
+      "Jardim Zen",
+      "Oficina de Bicicletas"
+    ]
+  },
+  {
+    "id": "property_082",
+    "title": "Garden em Humaitá",
+    "type": "Garden",
+    "business_type": "aluguel",
+    "description": "Ótima oportunidade: garden com 5 dormitórios em localização nobre",
+    "features": {
+      "area": 295,
+      "bedrooms": 5,
+      "suites": 3,
+      "parking_spots": 1,
+      "bathrooms": 2
+    },
+    "location": {
+      "neighborhood": "Freguesia",
+      "city": "Rio de Janeiro",
+      "state": "RJ"
+    },
+    "prices": {
+      "condo_fee": 961,
+      "property_tax": 71513,
+      "rent_price": 14302
+    },
+    "amenities": [
+      "Quadra de Tênis",
+      "Sala de Games",
+      "Salão de Festas",
+      "Espaço Pet",
+      "Gerador",
+      "Biblioteca",
+      "Sala de Meditação"
+    ]
+  },
+  {
+    "id": "property_083",
+    "title": "Mansão em Cristo Rei",
+    "type": "Mansão",
+    "business_type": "venda",
+    "description": "mansão aconchegante em região tranquila, próximo a comércios e transporte",
+    "features": {
+      "area": 158,
+      "bedrooms": 1,
+      "suites": 0,
+      "parking_spots": 2,
+      "bathrooms": 2
+    },
+    "location": {
+      "neighborhood": "Batel",
+      "city": "Curitiba",
+      "state": "CWB"
+    },
+    "prices": {
+      "condo_fee": 1913,
+      "property_tax": 17380,
+      "sale_price": 869000
+    },
+    "amenities": [
+      "Playground Coberto",
+      "Estúdio de Yoga",
+      "Piscina",
+      "Serviço de Manobrista",
+      "Campo de Futebol"
+    ]
+  },
+  {
+    "id": "property_084",
+    "title": "Vila em Alto da Glória",
+    "type": "Vila",
+    "business_type": "venda_aluguel",
+    "description": "Lindo vila com acabamento de alto padrão e total infraestrutura",
+    "features": {
+      "area": 55,
+      "bedrooms": 3,
+      "suites": 0,
+      "parking_spots": 1,
+      "bathrooms": 1
+    },
+    "location": {
+      "neighborhood": "Alto da Glória",
+      "city": "Curitiba",
+      "state": "CWB"
+    },
+    "prices": {
+      "condo_fee": 2633,
+      "property_tax": 7240,
+      "sale_price": 362010,
+      "rent_price": 1448
+    },
+    "amenities": [
+      "Circuito CFTV",
+      "Espaço Gourmet",
+      "Pista de Corrida",
+      "Sala de Entregas"
+    ]
+  },
+  {
+    "id": "property_085",
+    "title": "Cobertura em Ipanema",
+    "type": "Cobertura",
+    "business_type": "venda_aluguel",
+    "description": "Lindo cobertura com acabamento de alto padrão e total infraestrutura",
+    "features": {
+      "area": 83,
+      "bedrooms": 2,
+      "suites": 0,
+      "parking_spots": 3,
+      "bathrooms": 1
+    },
+    "location": {
+      "neighborhood": "Boa Vista",
+      "city": "Porto Alegre",
+      "state": "POA"
+    },
+    "prices": {
+      "condo_fee": 1965,
+      "property_tax": 16360,
+      "sale_price": 818048,
+      "rent_price": 3272
+    },
+    "amenities": [
+      "Gerador",
+      "Concierge",
+      "Sala de Massagem",
+      "Espaço Kids",
+      "Piscina Coberta",
+      "Segurança 24h"
+    ]
+  },
+  {
+    "id": "property_086",
+    "title": "Garden em Mont'Serrat",
+    "type": "Garden",
+    "business_type": "venda_aluguel",
+    "description": "Magnífico garden com projeto arquitetônico diferenciado e 235m² de puro conforto",
+    "features": {
+      "area": 235,
+      "bedrooms": 5,
+      "suites": 1,
+      "parking_spots": 4,
+      "bathrooms": 5
+    },
+    "location": {
+      "neighborhood": "Chácara das Pedras",
+      "city": "Porto Alegre",
+      "state": "POA"
+    },
+    "prices": {
+      "condo_fee": 1328,
+      "property_tax": 30376,
+      "sale_price": 1518805,
+      "rent_price": 6075
+    },
+    "amenities": [
+      "Campo de Futebol",
+      "Bar Esportivo",
+      "Quadra de Tênis",
+      "Área de Piquenique",
+      "Lounge",
+      "Espaço Gourmet",
+      "Sala de Entregas",
+      "Serviço de Manobrista",
+      "Adega Climatizada",
+      "Energia Solar"
+    ]
+  },
+  {
+    "id": "property_087",
+    "title": "Condomínio em Mercês",
+    "type": "Condomínio",
+    "business_type": "venda_aluguel",
+    "description": "Exclusivo condomínio em localização premium com 99m² bem distribuídos",
+    "features": {
+      "area": 99,
+      "bedrooms": 3,
+      "suites": 2,
+      "parking_spots": 1,
+      "bathrooms": 3
+    },
+    "location": {
+      "neighborhood": "Cristo Rei",
+      "city": "Curitiba",
+      "state": "CWB"
+    },
+    "prices": {
+      "condo_fee": 2171,
+      "property_tax": 11464,
+      "sale_price": 573210,
+      "rent_price": 2292
+    },
+    "amenities": [
+      "Adega Climatizada",
+      "Sala de Entregas",
+      "Internet Fibra Ótica",
+      "Sala de Estudos",
+      "Serviço de Manobrista",
+      "Quadra de Squash",
+      "Jardim de Cerveja",
+      "Piscina Coberta",
+      "Serviço de Manobrista"
+    ]
+  },
+  {
+    "id": "property_088",
+    "title": "Vila em Freguesia",
+    "type": "Vila",
+    "business_type": "venda",
+    "description": "vila com boa distribuição dos ambientes e localização privilegiada",
+    "features": {
+      "area": 157,
+      "bedrooms": 2,
+      "suites": 0,
+      "parking_spots": 1,
+      "bathrooms": 3
+    },
+    "location": {
+      "neighborhood": "Copacabana",
+      "city": "Rio de Janeiro",
+      "state": "RJ"
+    },
+    "prices": {
+      "condo_fee": 1247,
+      "property_tax": 39300,
+      "sale_price": 1965012
+    },
+    "amenities": [
+      "Brinquedoteca",
+      "Gerador",
+      "Cinema",
+      "Espaço Kids",
+      "Sala de Estudos",
+      "Spa",
+      "Sauna Seca",
+      "Serviço de Manobrista"
+    ]
+  },
+  {
+    "id": "property_089",
+    "title": "Loft em Jardim Social",
+    "type": "Loft",
+    "business_type": "aluguel",
+    "description": "loft com boa iluminação natural e vista livre em Cristo Rei",
+    "features": {
+      "area": 261,
+      "bedrooms": 2,
+      "suites": 2,
+      "parking_spots": 2,
+      "bathrooms": 3
+    },
+    "location": {
+      "neighborhood": "Rebouças",
+      "city": "Curitiba",
+      "state": "CWB"
+    },
+    "prices": {
+      "condo_fee": 2315,
+      "property_tax": 38763,
+      "rent_price": 7752
+    },
+    "amenities": [
+      "Portaria Blindada",
+      "Depósito Privativo",
+      "Espaço Coworking",
+      "Cinema",
+      "Espaço Musical",
+      "Pet Care"
+    ]
+  },
+  {
+    "id": "property_090",
+    "title": "Casa em Condomínio em Perdizes",
+    "type": "Casa em Condomínio",
+    "business_type": "venda",
+    "description": "casa em condomínio com boa iluminação natural e vista livre em Paraíso",
+    "features": {
+      "area": 265,
+      "bedrooms": 2,
+      "suites": 1,
+      "parking_spots": 1,
+      "bathrooms": 3
+    },
+    "location": {
+      "neighborhood": "Morumbi",
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "prices": {
+      "condo_fee": 946,
+      "property_tax": 54605,
+      "sale_price": 2730295
+    },
+    "amenities": [
+      "Carregador para Carro Elétrico",
+      "Circuito CFTV",
+      "Karaokê",
+      "Cinema"
+    ]
+  },
+  {
+    "id": "property_091",
+    "title": "Apartamento em São Pedro",
+    "type": "Apartamento",
+    "business_type": "aluguel",
+    "description": "apartamento aconchegante em região tranquila, próximo a comércios e transporte",
+    "features": {
+      "area": 36,
+      "bedrooms": 2,
+      "suites": 1,
+      "parking_spots": 1,
+      "bathrooms": 4
+    },
+    "location": {
+      "neighborhood": "São Pedro",
+      "city": "Belo Horizonte",
+      "state": "BH"
+    },
+    "prices": {
+      "condo_fee": 2305,
+      "property_tax": 4882,
+      "rent_price": 976
+    },
+    "amenities": [
+      "Academia",
+      "Brinquedoteca",
+      "Área de Piquenique",
+      "Biblioteca",
+      "Centro Empresarial",
+      "Playground Coberto",
+      "Quadra de Squash",
+      "Brinquedoteca",
+      "Sala de Games",
+      "Piscina"
+    ]
+  },
+  {
+    "id": "property_092",
+    "title": "Condomínio em Lagoa",
+    "type": "Condomínio",
+    "business_type": "venda",
+    "description": "Lindo condomínio com acabamento de alto padrão e total infraestrutura",
+    "features": {
+      "area": 33,
+      "bedrooms": 3,
+      "suites": 1,
+      "parking_spots": 2,
+      "bathrooms": 3
+    },
+    "location": {
+      "neighborhood": "Tijuca",
+      "city": "Rio de Janeiro",
+      "state": "RJ"
+    },
+    "prices": {
+      "condo_fee": 2642,
+      "property_tax": 6108,
+      "sale_price": 305448
+    },
+    "amenities": [
+      "Sala de Entregas",
+      "Playground Coberto",
+      "Academia",
+      "Berçário",
+      "Jardim de Cerveja",
+      "Sala de Videoconferência"
+    ]
+  },
+  {
+    "id": "property_093",
+    "title": "Mansão em Barra da Tijuca",
+    "type": "Mansão",
+    "business_type": "venda",
+    "description": "Amplo mansão com 93m² em região bem servida de comércio e serviços",
+    "features": {
+      "area": 93,
+      "bedrooms": 2,
+      "suites": 2,
+      "parking_spots": 2,
+      "bathrooms": 4
+    },
+    "location": {
+      "neighborhood": "Freguesia",
+      "city": "Rio de Janeiro",
+      "state": "RJ"
+    },
+    "prices": {
+      "condo_fee": 1721,
+      "property_tax": 16756,
+      "sale_price": 837837
+    },
+    "amenities": [
+      "Lounge",
+      "Sauna Seca",
+      "Centro Empresarial",
+      "Coleta Seletiva",
+      "Jardim Zen",
+      "Sala de Massagem"
+    ]
+  },
+  {
+    "id": "property_094",
+    "title": "Studio em Morumbi",
+    "type": "Studio",
+    "business_type": "venda_aluguel",
+    "description": "Amplo studio com 104m² em região bem servida de comércio e serviços",
+    "features": {
+      "area": 104,
+      "bedrooms": 1,
+      "suites": 0,
+      "parking_spots": 1,
+      "bathrooms": 1
+    },
+    "location": {
+      "neighborhood": "Higienópolis",
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "prices": {
+      "condo_fee": 1539,
+      "property_tax": 28658,
+      "sale_price": 1432912,
+      "rent_price": 5731
+    },
+    "amenities": [
+      "Concierge",
+      "Bicicletário",
+      "Playground",
+      "Piscina",
+      "Sala de Artes",
+      "Centro Empresarial",
+      "Energia Solar",
+      "Área de Piquenique",
+      "Espaço Família"
+    ]
+  },
+  {
+    "id": "property_095",
+    "title": "Duplex em Gávea",
+    "type": "Duplex",
+    "business_type": "venda",
+    "description": "Lindo duplex com acabamento de alto padrão e total infraestrutura",
+    "features": {
+      "area": 156,
+      "bedrooms": 5,
+      "suites": 0,
+      "parking_spots": 3,
+      "bathrooms": 1
+    },
+    "location": {
+      "neighborhood": "Ipanema",
+      "city": "Rio de Janeiro",
+      "state": "RJ"
+    },
+    "prices": {
+      "condo_fee": 656,
+      "property_tax": 42338,
+      "sale_price": 2116920
+    },
+    "amenities": [
+      "Espaço Família",
+      "Terraço Gourmet",
+      "Academia 24h",
+      "Academia",
+      "Brinquedoteca",
+      "Pet Care"
+    ]
+  },
+  {
+    "id": "property_096",
+    "title": "Triplex em Auxiliadora",
+    "type": "Triplex",
+    "business_type": "venda",
+    "description": "triplex em ótimo estado, com 2 quartos e área de lazer completa",
+    "features": {
+      "area": 329,
+      "bedrooms": 2,
+      "suites": 2,
+      "parking_spots": 1,
+      "bathrooms": 4
+    },
+    "location": {
+      "neighborhood": "Cidade Baixa",
+      "city": "Porto Alegre",
+      "state": "POA"
+    },
+    "prices": {
+      "condo_fee": 627,
+      "property_tax": 59693,
+      "sale_price": 2984688
+    },
+    "amenities": [
+      "Terraço Gourmet",
+      "Coleta Seletiva",
+      "Sala de Jogos",
+      "Biblioteca"
+    ]
+  },
+  {
+    "id": "property_097",
+    "title": "Garden em Jardins",
+    "type": "Garden",
+    "business_type": "venda_aluguel",
+    "description": "Elegante garden em região nobre com total privacidade",
+    "features": {
+      "area": 445,
+      "bedrooms": 1,
+      "suites": 1,
+      "parking_spots": 1,
+      "bathrooms": 2
+    },
+    "location": {
+      "neighborhood": "Aclimação",
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    "prices": {
+      "condo_fee": 2231,
+      "property_tax": 109389,
+      "sale_price": 5469495,
+      "rent_price": 21877
+    },
+    "amenities": [
+      "Captação de Água da Chuva",
+      "Salão de Festas",
+      "Sala de Massagem",
+      "Concierge",
+      "Sauna Úmida",
+      "Spa",
+      "Pomar",
+      "Estúdio de Yoga",
+      "Biblioteca",
+      "Espaço Musical"
+    ]
+  },
+  {
+    "id": "property_098",
+    "title": "Apartamento em Cidade Baixa",
+    "type": "Apartamento",
+    "business_type": "aluguel",
+    "description": "Espetacular apartamento com vista privilegiada em Petrópolis",
+    "features": {
+      "area": 143,
+      "bedrooms": 2,
+      "suites": 2,
+      "parking_spots": 4,
+      "bathrooms": 2
+    },
+    "location": {
+      "neighborhood": "Vila Assunção",
+      "city": "Porto Alegre",
+      "state": "POA"
+    },
+    "prices": {
+      "condo_fee": 1002,
+      "property_tax": 26898,
+      "rent_price": 5379
+    },
+    "amenities": [
+      "Spa",
+      "Sala de Artes",
+      "Composteira",
+      "Pet Wash",
+      "Karaokê",
+      "Sauna Úmida",
+      "Sala de Jogos",
+      "Adega Climatizada",
+      "Espaço Musical"
+    ]
+  },
+  {
+    "id": "property_099",
+    "title": "Loft em Cabral",
+    "type": "Loft",
+    "business_type": "venda",
+    "description": "Exclusivo loft em localização premium com 191m² bem distribuídos",
+    "features": {
+      "area": 191,
+      "bedrooms": 4,
+      "suites": 4,
+      "parking_spots": 4,
+      "bathrooms": 2
+    },
+    "location": {
+      "neighborhood": "Alto da Glória",
+      "city": "Curitiba",
+      "state": "CWB"
+    },
+    "prices": {
+      "condo_fee": 1474,
+      "property_tax": 23722,
+      "sale_price": 1186110
+    },
+    "amenities": [
+      "Salão de Jogos",
+      "Captação de Água da Chuva",
+      "Brinquedoteca",
+      "Sala de Jogos",
+      "Biblioteca",
+      "Espaço Zen"
+    ]
+  },
+  {
+    "id": "property_100",
+    "title": "Chalé em Bigorrilho",
+    "type": "Chalé",
+    "business_type": "venda_aluguel",
+    "description": "Exclusivo chalé em localização premium com 294m² bem distribuídos",
+    "features": {
+      "area": 294,
+      "bedrooms": 5,
+      "suites": 4,
+      "parking_spots": 3,
+      "bathrooms": 5
+    },
+    "location": {
+      "neighborhood": "Cristo Rei",
+      "city": "Curitiba",
+      "state": "CWB"
+    },
+    "prices": {
+      "condo_fee": 1598,
+      "property_tax": 33145,
+      "sale_price": 1657278,
+      "rent_price": 6629
+    },
+    "amenities": [
+      "Campo de Futebol",
+      "Estúdio de Yoga",
+      "Espaço Musical",
+      "Centro Empresarial"
+    ]
   }
 ]

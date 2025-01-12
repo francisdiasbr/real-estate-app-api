@@ -1,29 +1,29 @@
 # 🏠Real Estate App
 
+*Read this in other languages: [Portuguese](README_PT.md)* 
 
+## Description
 
-## Descrição
+This project aims to create an API for real estate search based on embeddings and vector search.
 
-Este projeto tem como objetivo criar uma API para busca de imóveis com base em embeddings e busca vetorial.
-
-Os imóveis são armazenados em um banco de dados MongoDB Atlas e os embeddings são gerados usando o modelo `text-embedding-3-small` da OpenAI.
+The properties are stored in a MongoDB Atlas database and the embeddings are generated using OpenAI's `text-embedding-3-small` model.
 
 <br/>
 
 <details>
-<summary><h2 style="display: inline">Instalação</h2></summary>
+<summary><h2 style="display: inline">Installation</h2></summary>
 
-### Criar ambiente virtual
+### Create virtual environment
 ```bash 
 python3 -m venv venv
 ```
 
-### Ativar o ambiente virtual
+### Activate virtual environment
 ```bash
 source venv/bin/activate
 ```
 
-### Instalar as dependências
+### Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
@@ -31,33 +31,32 @@ pip install -r requirements.txt
 <br/>
 
 <details>
-<summary><h2 style="display: inline">Preparar o ambiente (inicializar o índice de busca vetorial, gerar embeddings e anúncios) e executar a API</h2></summary>
+<summary><h2 style="display: inline">Prepare the environment (initialize vector search index, generate embeddings and listings) and run the API</h2></summary>
 
-### Inicializar o índice de busca vetorial e popular o banco de dados (mock_data.json)
+### Initialize vector search index and populate database (mock_data.json)
 ```bash
 python3 init_db.py
 ```
 
-### Gerar embeddings e anúncios
+### Generate embeddings and listings
 
 ```bash
 python3 generate_listings_and_embeddings.py
 ```
 
-
-## Executar a API
+## Run the API
 
 ```bash
 python3 app.py
 ```
 
-## Executar a busca
+## Execute search
 
 ```bash
 curl --location 'http://localhost:5000/api/search' \
 --header 'Content-Type: application/json' \
 --data '{
-    "query": "apartamento luxuoso com piscina em São Paulo",
+    "query": "luxury apartment with pool in São Paulo",
     "limit": 1
 }'
 ```
@@ -71,12 +70,12 @@ curl --location 'http://localhost:5000/api/search' \
 {
     "results": [
         {
-            "anuncio": "\"Viva com requinte e conforto em um apartamento de 180m² no coração do Itaim Bibi, São Paulo. Com 3 quartos, piscina aquecida, spa e academia premium. Por apenas R$3.200.000, seu novo lar de luxo espera por você. Agende sua visita hoje!\"",
+            "anuncio": "\"Live with refinement and comfort in a 180m² apartment in the heart of Itaim Bibi, São Paulo. With 3 bedrooms, heated pool, spa and premium gym. For only R$3,200,000, your new luxury home awaits you. Schedule your visit today!\"",
             "dados": {
                 "amenidades": [
-                    "Piscina Aquecida",
+                    "Heated Pool",
                     "Spa",
-                    "Academia Premium",
+                    "Premium Gym",
                     "Wine Cellar"
                 ],
                 "caracteristicas": {
@@ -86,15 +85,15 @@ curl --location 'http://localhost:5000/api/search' \
                     "suites": 3,
                     "vagas": 3
                 },
-                "descricao": "Apartamento sofisticado em prédio novo com lazer completo.",
+                "descricao": "Sophisticated apartment in new building with complete leisure area.",
                 "id": "imovel_006",
                 "localizacao": {
                     "bairro": "Itaim Bibi",
                     "cidade": "São Paulo",
                     "estado": "SP"
                 },
-                "tipo": "Apartamento",
-                "titulo": "Apartamento Alto Padrão Itaim Bibi",
+                "tipo": "Apartment",
+                "titulo": "High-End Apartment Itaim Bibi",
                 "valores": {
                     "condominio": 2500,
                     "iptu": 9000,
@@ -111,25 +110,24 @@ curl --location 'http://localhost:5000/api/search' \
 </details>
 <br/>
 
-## Arquivos
+## Files
 
-- `mock_data.json`: Arquivo com dados mock para teste.
-- `init_db.py`: Script para inicializar o índice de busca vetorial no MongoDB Atlas. Necessário rodar antes de rodar o script de embeddings pois o índice é necessário para a busca vetorial de embeddings para queries.
-- `generate_listings_and_embeddings.py`: Script para gerar anúncio e embeddings dos imóveis e salvar no MongoDB.
-- `config.py`: Configurações do MongoDB e OpenAI.
-- `app.py`: API para busca de imóveis.
+- `mock_data.json`: Mock data file for testing.
+- `init_db.py`: Script to initialize vector search index in MongoDB Atlas. Must be run before running the embeddings script as the index is required for vector search of embeddings for queries.
+- `generate_listings_and_embeddings.py`: Script to generate listings and embeddings for properties and save them to MongoDB.
+- `config.py`: MongoDB and OpenAI configurations.
+- `app.py`: API for property search.
 
-
-## Teoria
+## Theory
 
 <details>
-<summary><h3 style="display: inline">Índice de busca vetorial - Vector Search Index (Atlas Vector Search Index)</h3></summary>
+<summary><h3 style="display: inline">Vector Search Index (Atlas Vector Search Index)</h3></summary>
 
-O índice de busca vetorial (Atlas Vector Search Index) é um tipo especial de índice disponível apenas no MongoDB Atlas e que permite realizar buscas por similaridade em vetores (embeddings).
+The Vector Search Index (Atlas Vector Search Index) is a special type of index available only in MongoDB Atlas that allows similarity searches in vectors (embeddings).
 
-### Criar o índice
+### Create the index
 
-Para habilitar buscas por similaridade em seus dados, é preciso criar um índice de busca vetorial na coleção.
+To enable similarity searches in your data, you need to create a vector search index in the collection.
 
 ```python
 from pymongo.operations import SearchIndexModel
@@ -152,68 +150,69 @@ search_index_model = SearchIndexModel(
 collection.create_search_index(model=search_index_model)
 ```
 
-O índice deve levar cerca de um minuto para ser construído. Quando ele terminar de ser construído, você pode começar a consultar os dados em sua coleção.
+The index should take about a minute to build. When it finishes building, you can start querying the data in your collection.
 
-Este código cria um índice na coleção que especifica o campo de embedding como o tipo de vetor, a função de similaridade como dotProduct e o número de dimensões como 1536.
+This code creates an index in the collection that specifies the embedding field as the vector type, the similarity function as dotProduct, and the number of dimensions as 1536.
 
-- Quando convertemos textos em embeddings, cada imóvel é representado por um vetor de 1536 dimensões
-- Para encontrar imóveis similares, precisamos calcular a similaridade entre estes vetores
-- O índice vetorial otimiza este processo, tornando as buscas rápidas mesmo com milhares de imóveis
+- When we convert texts to embeddings, each property is represented by a 1536-dimensional vector
+- To find similar properties, we need to calculate the similarity between these vectors
+- The vector index optimizes this process, making searches fast even with thousands of properties
 
-### Como funciona
+### How it works
 
-1. Cada imóvel no banco tem um embedding (vetor) associado
-2. Quando fazemos uma busca:
-   - A query do usuário é convertida em um vetor
-   - O índice encontra os vetores mais similares
-   - Retorna os imóveis correspondentes
+1. Each property in the database has an associated embedding (vector)
+2. When we perform a search:
+   - The user's query is converted into a vector
+   - The index finds the most similar vectors
+   - Returns the corresponding properties
 
-### Exemplo Prático
+### Practical Example
 
-Quando um usuário busca "apartamento com vista para o mar em Recife":
-1. A busca é convertida em um vetor usando o mesmo modelo
-2. O índice encontra rapidamente os vetores mais próximos
-3. Retorna os imóveis ordenados por similaridade
+When a user searches for "apartment with ocean view in Recife":
+1. The search is converted into a vector using the same model
+2. The index quickly finds the closest vectors
+3. Returns properties ordered by similarity
 </details>
 
 <details>
-<summary><h3 style="display: inline">Geração de Embeddings</h3></summary>
+<summary><h3 style="display: inline">Embeddings Generation</h3></summary>
 
-### O que são embeddings?
-Embeddings são representações vetoriais de textos, onde palavras ou frases com significados semelhantes ficam próximas no espaço vetorial.
+### What are embeddings?
+Embeddings are vector representations of texts, where words or phrases with similar meanings are close in vector space.
 
-### Como geramos os embeddings?
-1. **Preparação do Texto**
-   Cada imóvel é convertido em um anúncio que combina todas suas características:
+### How do we generate embeddings?
+1. **Text Preparation**
+   Each property is converted into a listing that combines all its characteristics:
    ```text
-   Viva com requinte e conforto em um apartamento de 180m² no coração do Itaim Bibi, São Paulo. Com 3 quartos, piscina aquecida, spa e academia premium. Por apenas R$3.200.000, seu novo lar de luxo espera por você. Agende sua visita hoje!
+   Live with refinement and comfort in a 180m² apartment in the heart of Itaim Bibi, São Paulo. With 3 bedrooms, heated pool, spa and premium gym. For only R$3,200,000, your new luxury home awaits you. Schedule your visit today!
    ```
-   Este anúncio é gerado a partir das características do imóvel e é usado para criar o embedding.
+   This listing is generated from the property's characteristics and is used to create the embedding.
 
-2. **Geração do Vetor**
+2. **Vector Generation**
 
-   - O texto do anúncio é processado pelo modelo `text-embedding-3-small` da OpenAI
-   - O modelo analisa o significado semântico do texto
-   - Gera um vetor de 1536 dimensões que representa todas as características
-   - Características similares geram vetores próximos no espaço vetorial
+   - The listing text is processed by OpenAI's `text-embedding-3-small` model
+   - The model analyzes the semantic meaning of the text
+   - Generates a 1536-dimensional vector that represents all characteristics
+   - Similar characteristics generate vectors that are close in vector space
 
-3. **Em que momento o embedding da busca é gerado?**
-   - O embedding da busca é gerado no momento da busca
-   - O embedding da busca é comparado com os embeddings dos imóveis usando a distância euclidiana
-   - Os imóveis mais próximos são retornados como resultado
+3. **When is the search embedding generated?**
+   - The search embedding is generated at search time
+   - The search embedding is compared with property embeddings using euclidean distance
+   - The closest properties are returned as results
 
 </details>
 
-
-### Requisitos
+### Requirements
 - MongoDB Atlas
-- Cluster com suporte a Atlas Search
-- String de conexão configurada no `.env`
+- Cluster with Atlas Search support
+- Connection string configured in `.env`
 
 ### Refs
 
 Embeddings
 https://www.mongodb.com/docs/atlas/atlas-vector-search/create-embeddings/
 
-Produto escalar (dot product)
-https://pt.wikipedia.org/wiki/Produto_escalar
+Dot product
+https://en.wikipedia.org/wiki/Dot_product
+
+</details> 

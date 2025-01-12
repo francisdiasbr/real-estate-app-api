@@ -8,8 +8,6 @@ Este projeto tem como objetivo criar uma API para busca de imóveis com base em 
 
 Os imóveis são armazenados em um banco de dados MongoDB Atlas e os embeddings são gerados usando o modelo `text-embedding-3-small` da OpenAI.
 
-<br/>
-
 <details>
 <summary><h2 style="display: inline">Instalação</h2></summary>
 
@@ -28,11 +26,11 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 </details>
-<br/>
-
 <details>
-<summary><h2 style="display: inline">Preparar o ambiente (inicializar o índice de busca vetorial, gerar embeddings e anúncios) e executar a API</h2></summary>
+<summary><h2 style="display: inline">Preparar o ambiente</h2></summary>
 
+(inicializar o índice de busca vetorial, gerar embeddings e anúncios) e executar a API
+ 
 ### Inicializar o índice de busca vetorial e popular o banco de dados (mock_data.json)
 ```bash
 python3 init_db.py
@@ -43,7 +41,6 @@ python3 init_db.py
 ```bash
 python3 generate_listings_and_embeddings.py
 ```
-
 
 ## Executar a API
 
@@ -62,8 +59,6 @@ curl --location 'http://localhost:5000/api/search' \
 }'
 ```
 </details>
-<br/>
-
 <details>
 <summary><h2 style="display: inline">Response</h2></summary>
 
@@ -107,9 +102,7 @@ curl --location 'http://localhost:5000/api/search' \
     ]
 }
 ```
-
 </details>
-<br/>
 
 ## Arquivos
 

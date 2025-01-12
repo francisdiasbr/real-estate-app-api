@@ -1,14 +1,11 @@
-# 🏠Real Estate App
+# 🏠Real Estate App API
 
 *Read this in other languages: [Portuguese](README_PT.md)* 
 
 ## Description
 
 This project aims to create an API for real estate search based on embeddings and vector search.
-
 The properties are stored in a MongoDB Atlas database and the embeddings are generated using OpenAI's `text-embedding-3-small` model.
-
-<br/>
 
 <details>
 <summary><h2 style="display: inline">Installation</h2></summary>
@@ -28,10 +25,10 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 </details>
-<br/>
-
 <details>
-<summary><h2 style="display: inline">Prepare the environment (initialize vector search index, generate embeddings and listings) and run the API</h2></summary>
+<summary><h2 style="display: inline">Prepare the environment</h2></summary>
+
+(initialize vector search index, generate embeddings and listings) and run the API
 
 ### Initialize vector search index and populate database (mock_data.json)
 ```bash
@@ -61,8 +58,6 @@ curl --location 'http://localhost:5000/api/search' \
 }'
 ```
 </details>
-<br/>
-
 <details>
 <summary><h2 style="display: inline">Response</h2></summary>
 
@@ -106,9 +101,7 @@ curl --location 'http://localhost:5000/api/search' \
     ]
 }
 ```
-
 </details>
-<br/>
 
 ## Files
 
@@ -173,7 +166,6 @@ When a user searches for "apartment with ocean view in Recife":
 2. The index quickly finds the closest vectors
 3. Returns properties ordered by similarity
 </details>
-
 <details>
 <summary><h3 style="display: inline">Embeddings Generation</h3></summary>
 

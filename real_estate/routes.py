@@ -1,10 +1,11 @@
 from flask import Blueprint, request, jsonify
 from openai import OpenAI
-from config import get_mongo_collection
+from config import get_mongo_collection, openai_client as client
 from typing import List, Dict
 
+
 real_estate = Blueprint('real_estate', __name__)
-client = OpenAI()
+
 
 def get_search_embedding(query: str) -> List[float]:
     """
@@ -37,7 +38,7 @@ def generate_summary(results: List[Dict], query: str) -> str:
             {"role": "user", "content": prompt}
         ],
         max_tokens=300,
-        temperature=0.8
+        temperature=0.7
     )
     
     return response.choices[0].message.content.strip()
@@ -82,7 +83,7 @@ def search():
         results = list(collection.aggregate(pipeline))
         
         # Define um limiar de pontuação para considerar um resultado satisfatório
-        score_threshold = 0.6
+        score_threshold = 0.7
         satisfactory_results = [r for r in results if r['score'] >= score_threshold]
         
         formatted_results = [{

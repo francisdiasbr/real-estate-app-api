@@ -1,4 +1,5 @@
 # 🏠Real Estate App API
+[![Status](https://img.shields.io/website?url=https%3A%2F%2Fvarying-lynde-francisdiasbr-0720cb77.koyeb.app&up_message=online&down_message=offline&label=status)](https://varying-lynde-francisdiasbr-0720cb77.koyeb.app/)
 
 *Read this in other languages: [Portuguese](README_PT.md)* 
 
